@@ -1,0 +1,153 @@
+.tilt-neon{
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "XROT" 0,
+      "YROT" 0;
+  }
+  html, body{
+      background-color: hsl(280, 36%, 12%);
+      font-family: "Tilt Neon", sans-serif;
+      color: white;
+      margin: 0;
+    } 
+  banner{
+    background-color: #900060;
+    height: 60px;
+    width: 100%;
+  }
+  .ButtonText{
+    color: white;
+    text-decoration: none;
+  }
+  h3{
+    font-size: 80px;
+  }
+  d1{
+    font-size: 80px;
+    z-index: 2;
+  }
+  .clock{
+    position: fixed;
+    bottom: 0;
+  }
+  d2{
+    font-size: 65px;
+    left: 10px;
+    top: 50%;
+    color: white;
+  }
+  .fullscreentext{ 
+    margin-left: 5px;
+    color: white; 
+    font-size: 35px;
+  }
+  #iframe{
+    width:60.6vw;
+    height: 500px;
+    border-radius: 25px 25px 0 0 ;
+    margin-left: 100px;
+    margin-top: 40px;
+    background-color: white;
+  }
+  .Tag{
+    width:60.6vw;
+    border-radius: 0 0 25px 25px;
+    margin-left: 100px;
+    background-color: #900060;
+  }
+  .Button{
+    background-color: rgb(165, 0, 0);
+    width: 20%;
+    height: 60px;
+    border-radius: 30px;
+    float: right;
+    margin-right: 25%;
+    margin-top: 20%;
+    align-items: center;
+    text-align: center;
+  }
+  canvas,div{
+      margin: auto;
+  } 
+  .play {
+    height: 1.5vw;
+    padding: 2vw 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, var(--main));
+    font-size: 2vw;
+    border-radius: 1.1vw;
+    cursor: pointer;
+    margin-bottom: 10rem;
+    user-select: none;
+    border: none;
+    color: #FFFFFF;  
+    transition: transform 0.5s;
+    margin-top: 1.25vw;
+    font-weight: 500;
+    font-family:Inter;
+  }
+  .play:hover { 
+    text-decoration: none; color:rgb(255, 255, 255); 
+  }
+  .play:focus { 
+    text-decoration: none; color:rgb(255, 255, 255); 
+  }
+  .play:active { 
+    text-decoration: none; color:rgb(255, 255, 255); 
+  }
+  .play:hover {
+      transform:scale(1.05);
+  }
+   .gametext {
+      font-size:21px;
+      display:flex;
+      margin: 15vw;
+      font-family:Inter;
+  }
+   .tgcgame {
+      display:flex;
+      align-items:center;
+      flex-direction:column;
+      flex-grow:0;
+      width:100%;
+      height:100%;
+      background:#333;
+      box-shadow:0 6px 12px 0 rgba(0,0,0,.24);
+  }
+   .gameicon {
+      border-radius: 1vw;
+      box-shadow:var(--boxShadow,0 4px 8px 0 rgba(0,0,0,.24));
+      background: #1c1c1c;
+      margin:0 0.4vw 0 0;
+      width:20vw;
+      height:20vw;
+      margin-left: auto;
+      transition: transform 0.5s;
+  }
+  .margin {
+      margin-top: 1.25vw; 
+      margin-left: 0.5vw; 
+  }   
+   .flex {
+      display:flex;
+  }
+   .titletext {
+      margin-top: 2vw;
+      font:700 3.6vw/3.6vw Inter;
+      padding:0 0.5vw 0 0;
+      color:#ffffff;
+      line-height: 4vw;
+  }
+   .bytext {
+      display:block;
+      color: #cfcfcf;
+      margin:4px 0 0;
+      letter-spacing:0.015vw;
+      font:500 2vw/2vw Inter;
+      margin-top: -1.8vw;
+  }
