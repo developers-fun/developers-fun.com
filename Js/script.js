@@ -52,10 +52,8 @@ function hideImgTextOnMobile() {
   }
 }
 
-// Call the function when the page loads
-window.onload = function() {
-  hideImgTextOnMobile();
-};
+window.onload = hideImgTextOnMobile();
+
 function ShowIframe() {
     document.getElementsByClassName("iframe").style.display = "none"
 }

@@ -34,8 +34,8 @@ banner{
   transition: ease-in .5s;
 }
 img{
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
 }
 .Buttons{
   width: 100%;
@@ -59,8 +59,9 @@ h3{
   font-size: 80px;
 }
 d1{
-  font-size: 80px;
+  font-size: 90px;
   z-index: 2;
+  color: white;
 }
 .clock{
   position: fixed;
