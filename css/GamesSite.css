@@ -151,3 +151,6 @@
       font:500 2vw/2vw Inter;
       margin-top: -1.8vw;
   }
+  link{
+    display: block;
+  }
