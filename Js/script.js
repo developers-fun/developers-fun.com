@@ -51,7 +51,14 @@ function hideImgTextOnMobile() {
       }
   }
 }
+function changeicon() {
+    var elem1 = document.createElement("link")
+    elem1.rel = "icon"
+    elem1.href = "/favicon.ico"
+    document.head.appendChild(elem1)
+}
 
+window.onload = changeicon()
 window.onload = hideImgTextOnMobile();
 
 function ShowIframe() {
