@@ -64,3 +64,11 @@ window.onload = hideImgTextOnMobile();
 function ShowIframe() {
     document.getElementsByClassName("iframe").style.display = "none"
 }
+function URLChecker() {
+    var URL = "developers-fun"
+    var loco = window.location.href;
+    if (loco == URL, "/Games/Files") {
+    loco = "/index.html"
+}
+}
+onload = URLChecker()
