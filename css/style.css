@@ -64,3 +64,9 @@ d1{
 link{
   display: block;
 }
+.BTM{
+  color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
