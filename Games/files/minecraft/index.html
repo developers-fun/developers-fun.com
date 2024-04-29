@@ -1,67 +1,56 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="sv-SE"> <![endif]-->
-<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="sv-SE"> <![endif]-->
-<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="sv-SE"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="sv-SE" prefix="og: http://ogp.me/ns#">
-    <!--<![endif]-->
-    <head>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Play minecraft 1.8 in your browser" />
+    <meta name="keywords" content="eaglercraft, eaglercraftx, minecraft, 1.8, 1.8.8" />
+    <title>EaglercraftX 1.8</title>
+    <meta property="og:locale" content="en-US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="EaglercraftX 1.8" />
+    <meta property="og:description" content="Play minecraft 1.8 in your browser" />
+    <meta property="og:image" content="favicon.png" />
+    <link type="image/png" rel="shortcut icon" href="favicon.png" />
+    <script type="text/javascript" src="classes.js"></script>
+    <script src="/js/main.js"></script>
+    <script type="text/javascript" src="fix-webm-duration.js"></script>
+    <script type="text/javascript">
+      "use strict";
+      window.addEventListener("load", () => {
+        if (document.location.href.startsWith("file:")) {
+          alert("HTTP please, do not open this file locally, run a local HTTP server and load it via HTTP");
+        } else {
+          // %%%%%%%%% launch options %%%%%%%%%%%%
 
-        <link rel="icon" sizes="192x192" href="assets/textures/grass_dirt.png" />
-        <link rel="shortcut icon" href="assets/textures/grass_dirt.png" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="assets/textures/grass_dirt.png" type="image/x-icon" />
-        <link href="assets/css/style.css" rel="stylesheet" />
+          window.eaglercraftXOpts = {
+            container: "game_frame",
+            assetsURI: "assets.epk",
+            localesURI: "lang/",
+            servers: [
+              { addr: "wss://mc.asspixel.net", name: "AssPixel" },
+              { addr: "wss://sus.shhnowisnottheti.me", name: "Ayunboom" },
+              { addr: "wss://aeon-network.net/1.8", name: "Aeon" },
+              { addr: "wss://beta.vanillacraftsmp.org/", name: "VanillaCraft" },
+              { addr: "wss://mc.sealcentral.co", name: "SealCraft" },
+              { addr: "wss://g.deev.is/eaglerx-reference", name: "Reference Implementation" },
+              /* example: { addr: "ws://localhost:8081/", name: "Local test server" } */
+            ],
+          };
 
-        <title>Minecraft Classic</title>
-        <meta charset="UTF-8" />
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="google" content="notranslate" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-        <meta content="pack.png" property="og:image" />
-        <meta content="#00FF00" data-react-helmet="true" name="theme-color" />
-        <meta name="title" content="Minecraft Classic" />
-        <meta name="description" content="Play a old version of Minecraft in your browser!" />
-        <meta name="keywords" content="games, unblocked games, web games, online games, fun, tags" />
-        <meta name="robots" content="index, follow" />
-        <meta name="language" content="English" />
-        <meta name="revisit-after" content="1 days" />
+          // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    </head>
-    <script type="application/javascript" src="/js/main.js"></script>
-    <body>
-        <div class="page-content">
-            <main role="main" class="u-main"></main>
-        </div>
-        <div id="hide"><textarea class="js-copytextarea">url_to_copy</textarea></div>
-        <div id="version"></div>
-        <div id="hotbar"></div>
-        <div id="previewWindow"></div>
-        <div id="chat"></div>
-        <div id="menu"></div>
-        <div id="progress"></div>
-        <div id="overlay"></div>
-        <div id="mobile">
-            <div id="text_vertical">
-                <p><h2>Sorry!</h2></p>
-                <p>
-                    This version of Minecraft<br />
-                    requires a keyboard.
-                </p>
-                <p>Please try again on another device.</p>
-            </div>
-        </div>
-        <div id="webgl_webrtc">
-            <div id="text_vertical">
-                <h2>Sorry!</h2>
-                <p>
-                    It seems like your browser doesn’t support<br />
-                    WebGL or WebRTC that is required to run this game.
-                </p>
-                <p>Find a new one at <a href="https://browsehappy.com" target="_blank">https://browsehappy.com</a></p>
-            </div>
-        </div>
+          var q = window.location.search;
+          if (typeof q === "string" && q.startsWith("?")) {
+            q = new URLSearchParams(q);
+            var s = q.get("server");
+            if (s) window.eaglercraftXOpts.joinServer = s;
+          }
 
-        <script src="assets/js/app.js"></script>
-    </body>
+          main();
+        }
+      });
+    </script>
+  </head>
+  <body style="margin: 0px; width: 100vw; height: 100vh; overflow: hidden;" id="game_frame"></body>
 </html>
