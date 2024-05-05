@@ -54,15 +54,16 @@ function hideImgTextOnMobile() {
 function changeicon() {
     var elem1 = document.createElement("link")
     elem1.rel = "icon"
-    elem1.href = "/favicon.ico"
+    elem1.href = "/favicon.png"
     document.head.appendChild(elem1)
 }
 
 window.onload = changeicon()
 window.onload = hideImgTextOnMobile();
 
-function ShowIframe() {
-    document.getElementsByClassName("iframe").style.display = "none"
+function HideIframe() {
+    document.getElementById("iframe").style.display = "none"
+    document.getElementsByClassName("")
 }
 function URLChecker() {
     var URL = "developers-fun"
@@ -72,3 +73,4 @@ function URLChecker() {
 }
 }
 onload = URLChecker()
+onload = HideIframe()
