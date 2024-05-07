@@ -73,4 +73,3 @@ function URLChecker() {
 }
 }
 onload = URLChecker()
-onload = HideIframe()
