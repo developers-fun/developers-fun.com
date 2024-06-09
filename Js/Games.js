@@ -22,6 +22,7 @@ var LocalGames = `{
       "name": "Basketball Bros",
       "creator": "Mad Puffers",
       "path": "Games/files/basketbros.html"
+      "image": "Images\Images\basketballstars.jpg"
     },
     {
       "name": "Clicker Heroes",
@@ -124,11 +125,6 @@ var LocalGames = `{
       "creator": "Mad Puffers",
       "path": "Games/files/MotoX3m.html",
       "image": "Images/Images/moto-x3m.png"
-    },
-    {
-      "name": "MotoX3M Pool",
-      "creator": "Mad Puffers",
-      "path": "Games/files/MotoX3mpool.html"
     },
     {
       "name": "Slope",
