@@ -162,7 +162,7 @@ link{
 .gameframe:hover{
   box-shadow: 0 0 1vw 0 var(--main2);
 }
-p{
+p, d3{
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
