@@ -21,7 +21,7 @@ var LocalGames = `{
     {
       "name": "Basketball Bros",
       "creator": "Mad Puffers",
-      "path": "Games/files/basketbros.html"
+      "path": "Games/files/basketbros.html",
       "image": "Images\Images\basketballstars.jpg"
     },
     {
