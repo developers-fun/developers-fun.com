@@ -149,7 +149,6 @@ var LocalGames = `{
       "image": "Images/Images/TableTennisWorldTour.jiff"
     }
   ]
-}
 }`;
 var gameObject = JSON.parse(LocalGames);
 for (i in gameObject.games) {
