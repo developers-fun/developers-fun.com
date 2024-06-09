@@ -3,152 +3,153 @@ var LocalGames = `{
     {
       "name": "1v1.lol",
       "creator": "JustPlay.LOL",
-      "path": "files/1v1.lol.html",
-      "image": "Images/1v1lol.jpg"
+      "path": "Games/files/1v1.lol.html",
+      "image": "Images/Images/1v1lol.jpg"
     },
     {
       "name": "Boxing Random",
       "creator": "RHM Interactive",
-      "path": "files/boxingrandom.html",
-      "image": "Images/boxingrandom.jpg"
+      "path": "Games/files/boxingrandom.html",
+      "image": "Images/Images/boxingrandom.jpg"
     },
     {
       "name": "Among Us",
       "creator": "InnerSloth",
-      "path": "files/amongus.html",
-      "image": "Images/amongus.jpg"
+      "path": "Games/files/amongus.html",
+      "image": "Images/Images/amongus.jpg"
     },
     {
       "name": "Basketball Bros",
       "creator": "Mad Puffers",
-      "path": "files/basketbros.html"
+      "path": "Games/files/basketbros.html"
     },
     {
       "name": "Clicker Heroes",
       "creator": "Playsaurus",
-      "path": "files/ClickerHeroes.html",
-      "image": "Images/clicker-heroes.png"
+      "path": "Games/files/ClickerHeroes.html",
+      "image": "Images/Images/clicker-heroes.png"
     },
     {
       "name": "Color switch",
       "creator": "Fortafy Games",
-      "path": "files/ColorSwitch.html",
-      "image": "Images/colorswitch.jpeg"
+      "path": "Games/files/ColorSwitch.html",
+      "image": "Images/Images/colorswitch.jpeg"
     },
     {
       "name": "Cookie clickers",
       "creator": "RedBit Games",
-      "path": "files/CookieClicker.html",
-      "image": "Images/CookieClicker.png"
+      "path": "Games/files/CookieClicker.html",
+      "image": "Images/Images/CookieClicker.png"
     },
     {
       "name": "Coreball",
       "creator": "Gamedistribution.com",
-      "path": "files/Coreball.html",
-      "image": "Images/Coreball.png"
+      "path": "Games/files/Coreball.html",
+      "image": "Images/Images/Coreball.png"
     },
     {
       "name": "Dadish",
       "creator": "Thomas K. Young",
-      "path": "files/Dadish.html",
-      "image": "Images/Dadish.png"
+      "path": "Games/files/Dadish.html",
+      "image": "Images/Images/Dadish.png"
     },
     {
       "name": "Dadish 3",
       "creator": "Thomas K. Young",
-      "path": "files/Dadish3.html",
-      "image": "Images/Dadish3.png"
+      "path": "Games/files/Dadish3.html",
+      "image": "Images/Images/Dadish3.png"
     },
     {
       "name": "Doodle Jump",
       "creator": "Lima Sky",
-      "path": "files/doodlejump.html",
-      "image": "Images/Doodlejump.png"
+      "path": "Games/files/doodlejump.html",
+      "image": "Images/Images/Doodlejump.png"
     },
     {
       "name": "Drift boss",
       "creator": "MarketJS",
-      "path": "files/driftboss.html",
-      "image": "Images/drift-boss.png"
+      "path": "Games/files/driftboss.html",
+      "image": "Images/Images/drift-boss.png"
     },
     {
       "name": "Drive mad",
       "creator": "Fancade",
-      "path": "files/Drive-mad.html",
-      "image": "Images/DriveMad.jpg"
+      "path": "Games/files/Drive-mad.html",
+      "image": "Images/Images/DriveMad.jpg"
     },
     {
       "name": "Fruit Ninja",
       "creator": "Halfbrick Studios",
-      "path": "files/FruitNinja.html",
-      "image": "Images/Fruit.jiff"
+      "path": "Games/files/FruitNinja.html",
+      "image": "Images/Images/Fruit.jiff"
     },
     {
       "name": "Hextris",
       "creator": "Hextris",
-      "path": "files/hextris.html",
-      "image": "Images/hextris.png"
+      "path": "Games/files/hextris.html",
+      "image": "Images/Images/hextris.png"
     },
     {
       "name": "Jetpack Joyride",
       "creator": "Halfbrick Studios",
-      "path": "files/Jetpackjoyride.html",
-      "image": "Images/Jetpack.png"
+      "path": "Games/files/Jetpackjoyride.html",
+      "image": "Images/Images/Jetpack.png"
     },
     {
       "name": "L2F",
       "creator": "MarketJS",
-      "path": "files/L2f.html",
-      "image": "Images/L2F.jpeg"
+      "path": "Games/files/L2f.html",
+      "image": "Images/Images/L2F.jpeg"
     },
     {
       "name": "L2f2",
       "creator": "MarketJS",
-      "path": "files/L2f2.html",
-      "image": "Images/L2F2.jpeg"
+      "path": "Games/files/L2f2.html",
+      "image": "Images/Images/L2F2.jpeg"
     },
     {
       "name": "L2F3",
       "creator": "MarketJS",
-      "path": "files/L2f3.html",
-      "image": "Images/L2F3.jpeg"
+      "path": "Games/files/L2f3.html",
+      "image": "Images/Images/L2F3.jpeg"
     },
     {
       "name": "Minecraft",
       "creator": "Mojang Studios",
-      "path": "files/Minecraft.html",
-      "image": "Images/minecraft.png"
+      "path": "Games/files/Minecraft.html",
+      "image": "Images/Images/minecraft.png"
     },
     {
       "name": "MotoX3M",
       "creator": "Mad Puffers",
-      "path": "files/MotoX3m.html",
-      "image": "Images/moto-x3m.png"
+      "path": "Games/files/MotoX3m.html",
+      "image": "Images/Images/moto-x3m.png"
     },
     {
       "name": "MotoX3M Pool",
       "creator": "Mad Puffers",
-      "path": "files/MotoX3mpool.html"
+      "path": "Games/files/MotoX3mpool.html"
     },
     {
       "name": "Slope",
       "creator": "Y8",
-      "path": "files/Slope.html",
-      "image": "Images/Slope.jiff"
+      "path": "Games/files/Slope.html",
+      "image": "Images/Images/Slope.jiff"
     },
     {
       "name": "Soccer Random",
       "creator": "RHM Interactive",
-      "path": "files/SoccerRandom.html",
-      "image": "Images/SoccerRandom.jiff"
+      "path": "Games/files/SoccerRandom.html",
+      "image": "Images/Images/SoccerRandom.jiff"
     },
     {
       "name": "Table Tennis World Tour",
       "creator": "Yakuto",
-      "path": "files/TableTennisWorldTour.html",
-      "image": "Images/TableTennisWorldTour.jiff"
+      "path": "Games/files/TableTennisWorldTour.html",
+      "image": "Images/Images/TableTennisWorldTour.jiff"
     }
   ]
+}
 }`;
 var gameObject = JSON.parse(LocalGames);
 for (i in gameObject.games) {
