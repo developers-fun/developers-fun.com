@@ -1,6 +1,4 @@
 var LocalGames = `{
-    "games":[
-{
   "games": [
     {
       "name": "1v1.lol",
@@ -151,9 +149,6 @@ var LocalGames = `{
       "image": "Images/TableTennisWorldTour.jiff"
     }
   ]
-}
-
-    ]
 }`;
 var gameObject = JSON.parse(LocalGames);
 for (i in gameObject.games) {
