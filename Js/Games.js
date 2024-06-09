@@ -1,65 +1,158 @@
 var LocalGames = `{
     "games":[
+{
+  "games": [
     {
-        "url": "/Games/1v1.lol.html",
-        "image": "/Games/files/1v1.lol/logo.png",
-        "title": "1v1.lol",
-        "Creator": "JustPlay.LOL"
+      "name": "1v1.lol",
+      "creator": "JustPlay.LOL",
+      "path": "files/1v1.lol.html",
+      "image": "Images/1v1lol.jpg"
     },
     {
-        "url": "/Games/boxingrandom.html",
-        "image": "/Games/files/Boxing-Random-main/512x512.jpg",
-        "title": "Boxing Random",
-        "Creator": "RHM Interactive"
+      "name": "Boxing Random",
+      "creator": "RHM Interactive",
+      "path": "files/boxingrandom.html",
+      "image": "Images/boxingrandom.jpg"
     },
     {
-        "url": "/Games/amongus.html",
-        "image": "/Images/Images/amongus.jpg",
-        "title": "Among Us",
-        "Creator": "Innersloth"
+      "name": "Among Us",
+      "creator": "InnerSloth",
+      "path": "files/amongus.html",
+      "image": "Images/amongus.jpg"
     },
     {
-        "url": "/Games/basketbros.html",
-        "image": "/Games/files/basketbros/thumb.jpg",
-        "title": "Basketball Bros",
-        "Creator": "Blue Wizard Digital"
+      "name": "Basketball Bros",
+      "creator": "Mad Puffers",
+      "path": "files/basketbros.html"
     },
     {
-        "url": "/Games/ClickerHeroes.html",
-        "image": "/Games/files/Clicker-Heroes-main/clicker-heroes.png",
-        "title": "Clicker Heroes",
-        "Creator": "Playsaurus"
+      "name": "Clicker Heroes",
+      "creator": "Playsaurus",
+      "path": "files/ClickerHeroes.html",
+      "image": "Images/clicker-heroes.png"
     },
     {
-        "url": "/Games/ColorSwitch.html",
-        "image": "/Games/files/Color-Switch-main/download.jpeg",
-        "title": "Color switch",
-        "Creator": "Fortafy Games"
+      "name": "Color switch",
+      "creator": "Fortafy Games",
+      "path": "files/ColorSwitch.html",
+      "image": "Images/colorswitch.jpeg"
     },
     {
-        "url": "/Games/CookieClicker.html",
-        "image": "/Games/files/Cookie-Clicker-main/Favicon.PNG",
-        "title": "Cookie clickers",
-        "Creator": "Julien 'Orteil' Thiennot"
+      "name": "Cookie clickers",
+      "creator": "RedBit Games",
+      "path": "files/CookieClicker.html",
+      "image": "Images/CookieClicker.png"
     },
     {
-        "url": "/Games/Coreball.html",
-        "image": "/Images/Images/Coreball.png",
-        "title": "Coreball",
-        "Creator": "Unknown"
+      "name": "Coreball",
+      "creator": "Gamedistribution.com",
+      "path": "files/Coreball.html",
+      "image": "Images/Coreball.png"
     },
     {
-        "url": "/Games/Dadish.html",
-        "image": "/Games/files/Dadish/favicon.png",
-        "title": "Dadish",
-        "Creator": "Thomas K. Young"
+      "name": "Dadish",
+      "creator": "Thomas K. Young",
+      "path": "files/Dadish.html",
+      "image": "Images/Dadish.png"
     },
     {
-        "url": "/Games/Dadish3.html",
-        "image": "/Games/files/Dadish3/splash.png",
-        "title": "Dadish 3",
-        "Creator": "Thomas K. Young"
+      "name": "Dadish 3",
+      "creator": "Thomas K. Young",
+      "path": "files/Dadish3.html",
+      "image": "Images/Dadish3.png"
+    },
+    {
+      "name": "Doodle Jump",
+      "creator": "Lima Sky",
+      "path": "files/doodlejump.html",
+      "image": "Images/Doodlejump.png"
+    },
+    {
+      "name": "Drift boss",
+      "creator": "MarketJS",
+      "path": "files/driftboss.html",
+      "image": "Images/drift-boss.png"
+    },
+    {
+      "name": "Drive mad",
+      "creator": "Fancade",
+      "path": "files/Drive-mad.html",
+      "image": "Images/DriveMad.jpg"
+    },
+    {
+      "name": "Fruit Ninja",
+      "creator": "Halfbrick Studios",
+      "path": "files/FruitNinja.html",
+      "image": "Images/Fruit.jiff"
+    },
+    {
+      "name": "Hextris",
+      "creator": "Hextris",
+      "path": "files/hextris.html",
+      "image": "Images/hextris.png"
+    },
+    {
+      "name": "Jetpack Joyride",
+      "creator": "Halfbrick Studios",
+      "path": "files/Jetpackjoyride.html",
+      "image": "Images/Jetpack.png"
+    },
+    {
+      "name": "L2F",
+      "creator": "MarketJS",
+      "path": "files/L2f.html",
+      "image": "Images/L2F.jpeg"
+    },
+    {
+      "name": "L2f2",
+      "creator": "MarketJS",
+      "path": "files/L2f2.html",
+      "image": "Images/L2F2.jpeg"
+    },
+    {
+      "name": "L2F3",
+      "creator": "MarketJS",
+      "path": "files/L2f3.html",
+      "image": "Images/L2F3.jpeg"
+    },
+    {
+      "name": "Minecraft",
+      "creator": "Mojang Studios",
+      "path": "files/Minecraft.html",
+      "image": "Images/minecraft.png"
+    },
+    {
+      "name": "MotoX3M",
+      "creator": "Mad Puffers",
+      "path": "files/MotoX3m.html",
+      "image": "Images/moto-x3m.png"
+    },
+    {
+      "name": "MotoX3M Pool",
+      "creator": "Mad Puffers",
+      "path": "files/MotoX3mpool.html"
+    },
+    {
+      "name": "Slope",
+      "creator": "Y8",
+      "path": "files/Slope.html",
+      "image": "Images/Slope.jiff"
+    },
+    {
+      "name": "Soccer Random",
+      "creator": "RHM Interactive",
+      "path": "files/SoccerRandom.html",
+      "image": "Images/SoccerRandom.jiff"
+    },
+    {
+      "name": "Table Tennis World Tour",
+      "creator": "Yakuto",
+      "path": "files/TableTennisWorldTour.html",
+      "image": "Images/TableTennisWorldTour.jiff"
     }
+  ]
+}
+
     ]
 }`;
 var gameObject = JSON.parse(LocalGames);
