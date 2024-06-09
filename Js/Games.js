@@ -156,16 +156,16 @@ for (i in gameObject.games) {
   elem1.className = "gameframe";
   document.getElementById("gameid").appendChild(elem1);
   let elem2 = document.createElement("a");
-  elem2.href = gameObject.games[i].url;
+  elem2.href = gameObject.games[i].path;
   elem1.appendChild(elem2);
   let elem3 = document.createElement("img");
   elem3.src = gameObject.games[i].image;
-  elem3.alt = gameObject.games[i].title;
+  elem3.alt = gameObject.games[i].name;
   elem2.appendChild(elem3);
   let elem4 = document.createElement("p");
-  elem4.innerHTML = gameObject.games[i].title;
+  elem4.innerHTML = gameObject.games[i].name;
   elem2.appendChild(elem4);
   let elem5 = document.createElement("d3");
-  elem5.innerHTML = gameObject.games[i].Creator;
+  elem5.innerHTML = gameObject.games[i].creator;
   elem2.appendChild(elem5);
 }
