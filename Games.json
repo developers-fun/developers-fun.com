@@ -10,7 +10,7 @@
         "name": "Boxing Random",
         "creator": "RHM Interactive",
         "path": "Games/files/boxingrandom.html",
-        "image": "Images/Images/boxingrandom.jpg"
+        "image": "Images/Images/f.avif"
       },
       {
         "name": "Among Us",
@@ -82,7 +82,7 @@
         "name": "Fruit Ninja",
         "creator": "Halfbrick Studios",
         "path": "Games/files/FruitNinja.html",
-        "image": "Images/Images/Fruit.jiff"
+        "image": "Images/Images/Fruit.jfif"
       },
       {
         "name": "Hextris",
@@ -124,25 +124,25 @@
         "name": "MotoX3M",
         "creator": "Mad Puffers",
         "path": "Games/files/MotoX3m.html",
-        "image": "Images/Images/moto-x3m.png"
+        "image": "Images/Images/moto-x3m.jpg"
       },
       {
         "name": "Slope",
         "creator": "Y8",
         "path": "Games/files/Slope.html",
-        "image": "Images/Images/Slope.jiff"
+        "image": "Images/Images/Slope.jfif"
       },
       {
         "name": "Soccer Random",
         "creator": "RHM Interactive",
         "path": "Games/files/SoccerRandom.html",
-        "image": "Images/Images/SoccerRandom.jiff"
+        "image": "Images/Images/SoccerRandom.jfif"
       },
       {
         "name": "Table Tennis World Tour",
         "creator": "Yakuto",
         "path": "Games/files/TableTennisWorldTour.html",
-        "image": "Images/Images/TableTennisWorldTour.jiff"
+        "image": "Images/Images/TableTennisWorldTour.png"
       }
     ]
   }

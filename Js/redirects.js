@@ -1,5 +1,5 @@
-if (window.location.href = "https://Developers-fun.netlify.app") {
+if (window.location.href = "https://Developers-fun.com/Games/Files") {
 
 } else {
-	window.location.href = "https://example.com"
+	window.location.href = "https://developers-fun.com"
 }
