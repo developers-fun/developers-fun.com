@@ -165,3 +165,22 @@ for (i in gameObject.games) {
   elem5.innerHTML = gameObject.games[i].creator;
   elem2.appendChild(elem5);
 }
+const gamesContainer = document.getElementById("gameid");
+const searchBar = document.getElementById("game-search");
+searchBar.addEventListener('input', (e) => {
+  const query = searchBar.value.trim().toLowerCase();
+  for (let game of gamesContainer.children) {
+    if (game instanceof Element) {
+      if (query) {
+        const gameName = game.querySelector('p').innerText.trim().toLowerCase();
+        if (gameName.includes(query)) {
+          game.removeAttribute('hidden');
+        } else {
+          game.setAttribute('hidden', '');
+        }
+      } else {
+        game.removeAttribute('hidden');
+      }
+    }
+  }
+});

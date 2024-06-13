@@ -11,6 +11,7 @@ body{
     background-color: hsl(280, 36%, 12%);
     font-family: "Tilt Neon", sans-serif;
     color: white;
+    margin: 0;
   } 
 .game-select {
   display: flex;
@@ -65,7 +66,7 @@ d1{
   color: white;
 }
 .clock{
-  position: fixed;
+  
   bottom: 0;
 }
 .search{
@@ -100,18 +101,6 @@ d2{
 }
 link{
   display: block;
-}
-.BTM{
-  color: white;
-  position: fixed;
-  bottom: 0;
-  right: 100px;
-}
-.BTM2{
-  color: white;
-  position: fixed;
-  bottom: 0;
-  right: 200px;
 }
 .game-container {
   margin-left:1.1vw;
@@ -176,4 +165,40 @@ p, d3{
 }
 d3{
   font-size: 1vw;
+}
+.SearchBar {
+  font-size: 1.3vw;
+  text-align: center;
+  border-style: solid !important;
+  border-width: .2vw;
+  border-radius: 1vw;
+  width: 40vw;
+  height: 3.5vw;
+  outline: none;
+  text-align: center;
+  background: linear-gradient(45deg, #19191b, #16161a);
+  transition: .5s;
+  margin-left: 29vw;
+  margin-bottom: 2vw;
+  margin-top: 4vw;
+  border: .1vw solid #ffffff26;
+  color: white;
+  font-family: "Tilt Neon", sans-serif;
+}
+.Footer{
+  width: 100%;
+  height: 3.7vw;
+  margin-top: 10vw;
+  background-color: #171717;
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,.24);
+}
+.BTM{
+  color: white;
+  right: 20px;
+}
+.BTM2{
+  color: white;
+  position: fixed;
+  bottom: 0;
+  right: 200px;
 }
