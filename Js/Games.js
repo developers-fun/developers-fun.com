@@ -173,7 +173,8 @@ searchBar.addEventListener('input', (e) => {
     if (game instanceof Element) {
       if (query) {
         const gameName = game.querySelector('p').innerText.trim().toLowerCase();
-        if (gameName.includes(query)) {
+        const gameCreate = game.querySelector('d3').innerText.trim().toLowerCase();
+        if (gameName.includes(query) || gameCreate.includes(query)) {
           game.removeAttribute('hidden');
         } else {
           game.setAttribute('hidden', '');
