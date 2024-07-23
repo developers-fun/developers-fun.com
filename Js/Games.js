@@ -8,18 +8,18 @@ var LocalGames = `{
             "Visible": true
         },
         {
+            "name": "Among Us",
+            "creator": "InnerSloth",
+            "path": "Games/amongus.html",
+            "image": "Images/Images/AmoungUs.png",
+            "Visible": true
+        },
+        {
             "name": "Boxing Random",
             "creator": "RHM Interactive",
             "path": "Games/boxingrandom.html",
             "image": "Images/Images/BoxingRandom.jfif",
             "Visible": false
-        },
-        {
-            "name": "Among Us",
-            "creator": "InnerSloth",
-            "path": "Games/amongus.html",
-            "image": "Images/Images/amongus.jpg",
-            "Visible": true
         },
         {
             "name": "Basketball Bros",
@@ -39,7 +39,7 @@ var LocalGames = `{
             "name": "Color switch",
             "creator": "Fortafy Games",
             "path": "Games/ColorSwitch.html",
-            "image": "Images/Images/colorswitch.jpeg",
+            "image": "Images/Images/ColorSwitch.png",
             "Visible": true
         },
         {
@@ -116,7 +116,7 @@ var LocalGames = `{
             "name": "L2F",
             "creator": "MarketJS",
             "path": "Games/L2f.html",
-            "image": "Images/Images/L2F.jpeg",
+            "image": "Images/Images/L2F.png",
             "Visible": true
         },
         {
@@ -130,14 +130,14 @@ var LocalGames = `{
             "name": "L2F3",
             "creator": "MarketJS",
             "path": "Games/L2f3.html",
-            "image": "Images/Images/L2F3.jpeg",
+            "image": "Images/Images/L2F3.png",
             "Visible": true
         },
         {
             "name": "Minecraft",
             "creator": "Mojang Studios",
             "path": "Games/Minecraft.html",
-            "image": "Images/Images/minecraft.png",
+            "image": "Images/Images/Minecraft.png",
             "Visible": true
         },
         {
@@ -148,9 +148,23 @@ var LocalGames = `{
             "Visible": true
         },
         {
+            "name": "RetroBowl",
+            "creator": "New Star Games",
+            "path": "Games/Retrobowl.html",
+            "image": "Images/Images/Retrobowl.png",
+            "Visible": true
+        },
+        {
             "name": "Slope",
             "creator": "Y8",
             "path": "Games/Slope.html",
+            "image": "Images/Images/Slope.jfif",
+            "Visible": true
+        },
+        {
+            "name": "Slope 2",
+            "creator": "Y8",
+            "path": "Games/Slope2.html",
             "image": "Images/Images/Slope.jfif",
             "Visible": true
         },

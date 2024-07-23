@@ -58,9 +58,6 @@ function changeicon() {
     document.head.appendChild(elem1)
 }
 
-window.onload = changeicon()
-window.onload = hideImgTextOnMobile();
-
 function HideIframe() {
     document.getElementById("iframe").style.display = "none"
     document.getElementsByClassName("")
@@ -72,4 +69,8 @@ function URLChecker() {
     loco = "/index.html"
 }
 }
+
 onload = URLChecker()
+window.onload = changeicon()
+window.onload = hideImgTextOnMobile();
+

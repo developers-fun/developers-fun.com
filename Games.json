@@ -16,7 +16,7 @@
         "name": "Among Us",
         "creator": "InnerSloth",
         "path": "Games/files/amongus.html",
-        "image": "Images/Images/amongus.jpg"
+        "image": "Images/Images/AmongUs.jfif"
       },
       {
         "name": "Basketball Bros",
@@ -100,7 +100,7 @@
         "name": "L2F",
         "creator": "MarketJS",
         "path": "Games/files/L2f.html",
-        "image": "Images/Images/L2F.jpeg"
+        "image": "Images/Images/L2F.png"
       },
       {
         "name": "L2f2",
@@ -118,7 +118,7 @@
         "name": "Minecraft",
         "creator": "Mojang Studios",
         "path": "Games/files/Minecraft.html",
-        "image": "Images/Images/minecraft.png"
+        "image": "Images/Images/Minecraft.jfif"
       },
       {
         "name": "MotoX3M",
