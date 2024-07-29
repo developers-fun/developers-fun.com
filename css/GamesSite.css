@@ -1,15 +1,10 @@
-.tilt-neon{
-    font-family: "Tilt Neon", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "XROT" 0,
-      "YROT" 0;
-  }
-  html, body{
+@font-face {
+  font-family: "Tilt";
+  src: url("/Tilt.ttf");
+}
+html, body{
       background-color: hsl(280, 36%, 12%);
-      font-family: "Tilt Neon", sans-serif;
+      font-family: "Tilt";
       color: white;
       margin: 0;
     } 
