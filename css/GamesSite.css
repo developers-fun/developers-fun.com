@@ -52,12 +52,10 @@ html, body{
   .Tag{
     margin: auto;
     width: 60.6vw;
-    height: 1.3vw;
+    height: 70px;
     margin-left: 100px;
     display: flex;
     align-items: center;
-    padding-bottom: 1.5vh;
-    padding-top: 10vw;
     background-color: #9000607c;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;

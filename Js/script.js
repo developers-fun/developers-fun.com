@@ -45,9 +45,11 @@ function is_mobile_device(){
 }
 function hideImgTextOnMobile() {
   if (is_mobile_device()) {
-      var elements = document.getElementsByClassName("Imgtext");
+      var elements = document.getElementsByClassName("imgtext");
+      var elements2 = document.getElementsByClassName("CreatorText");
       for (var i = 0; i < elements.length; i++) {
           elements[i].style.display = "none";
+          elements2[i].style.display = "none";
       }
   }
 }
