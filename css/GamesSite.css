@@ -258,3 +258,77 @@ html, body{
     margin-top: 14vw;
     margin-left: -9vw;
   }
+  .gameframe {
+    background: linear-gradient(45deg, #19191b, #16161a);
+    padding: 1vw;
+    
+    transition: .5s;
+    box-shadow: 0 0 1vw 0 #171717;
+    border-radius: 10px;
+    opacity: 90%;
+    outline: .1vw solid #ffffff26;
+  }
+  .game-container {
+    margin-left:1.1vw;
+    gap: 3vmin;
+    margin-bottom:1.5vw;
+    margin-top: 5vw;
+    margin-left: 4vw;
+    animation:fadeIn 0.68s ease-in-out 
+  }
+  @keyframes fadeIn{
+    0%{
+        opacity:0 
+   }
+    100%{
+        opacity:1 
+   }
+  }
+  .game-select {
+    display: flex;
+    gap: 1vw;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  .gameframe {
+    background: linear-gradient(45deg, #19191b, #16161a);
+    padding:1vw;
+    width:20vw;
+    transition: .5s;
+    box-shadow: 0 0 1vw 0 #171717;
+    border-radius:10px;
+    opacity: 90%;
+    outline: .1vw solid #ffffff26;
+  }
+  .gameframe img {
+    border-radius: 1vw;
+    width: 10vw;
+    height: 10vw;
+    margin-left: 5vw;
+  }
+  .gameframe a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family:Inter;
+    font-size: 1.2vw;
+    font-weight: 500;
+  }
+  .gameframe:hover{
+    box-shadow: 0 0 1vw 0 var(--main2);
+  }
+  p, d3{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-family: "Tilt";
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+  }
+  d3{
+    font-size: 1vw;
+  }
