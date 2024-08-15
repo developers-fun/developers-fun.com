@@ -181,6 +181,13 @@ var LocalGames = `{
           "path": "Games/TableTennisWorldTour.html",
           "image": "Images/Images/TableTennisWorldTour.jfif",
           "Visible": true
+      },
+      {
+          "name": "Tag",
+          "creator": "JetGames",
+          "path": "Games/Tag.html",
+          "image": "Images/Images/Tag.png",
+          "Visible": true
       }
   ]
 }`
