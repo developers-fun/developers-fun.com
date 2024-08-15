@@ -99,6 +99,13 @@ var LocalGames = `{
           "Visible": true
       },
       {
+          "name": "Gobble",
+          "creator": "Fancade",
+          "path": "/Games/Gobble.html",
+          "image": "/Images/Images/Gobble.png",
+          "Visible": true
+      },
+      {
           "name": "Hextris",
           "creator": "Hextris",
           "path": "/Games/hextris.html",
