@@ -221,7 +221,7 @@ var LocalGames = `{
             "creator": "Ericetto",
             "path": "/Games/RagdollHit.html",
             "image": "/Images/Images/RagdollHit.png",
-            "Visible": true,
+            "Visible": false,
             "Hot": true
         },
         {
@@ -300,8 +300,6 @@ var LocalGames = `{
             "name": "Tiny-Fishing",
             "creator": "Mad Buffer",
             "path": "/Games/Tiny-Fishing.html",
-  
-            "GamePath": "https://files.developers-fun.com/Tiny-Fishing-main",
             "image": "/Images/Images/Tiny-Fishing.png",
             "Visible": true,
             "Hot": true

@@ -111,6 +111,10 @@ img, .list-image{
   margin-top: 20px;
   border-radius: 20px;
 }
+.GameImgs:hover{
+  filter: brightness(50%);
+  transition: ease, .3s;
+}
 .Buttons{
   width: 100%;
   height: 60px;
