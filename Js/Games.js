@@ -19,7 +19,7 @@ var LocalGames = `{
           "creator": "RHM Interactive",
           "path": "/Games/boxingrandom.html",
           "image": "/Images/Images/BoxingRandom.jfif",
-          "Visible": false
+          "Visible": true
       },
       {
           "name": "Basketball Bros",
@@ -106,6 +106,13 @@ var LocalGames = `{
           "Visible": true
       },
       {
+          "name": "Getaway Shootout",
+          "creator": "Neweich Games",
+          "path": "/Games/GetawayShootouts.html",
+          "image": "/Images/Images/GetawayShootout.png",
+          "Visible": true
+      },
+      {
           "name": "Gobble",
           "creator": "Fancade",
           "path": "/Games/Gobble.html",
@@ -169,6 +176,13 @@ var LocalGames = `{
           "Visible": true
       },
       {
+          "name": "Ragdoll Hit",
+          "creator": "Ericetto",
+          "path": "/Games/RagdollHit.html",
+          "image": "/Images/Images/RagdollHit.png",
+          "Visible": true
+      },
+      {
           "name": "RetroBowl",
           "creator": "New Star Games",
           "path": "/Games/Retrobowl.html",
@@ -214,24 +228,29 @@ var LocalGames = `{
 }`
 var gameObject = JSON.parse(LocalGames);
 for (i in gameObject.games) {
-  let elem1 = document.createElement("div");
-  elem1.className = "gameframe";
-  document.getElementById("gameid").appendChild(elem1);
-  let elem2 = document.createElement("a");
-  elem2.href = gameObject.games[i].path;
-  elem1.appendChild(elem2);
-  let elem3 = document.createElement("img");
-  elem3.src = gameObject.games[i].image;
-  elem3.alt = gameObject.games[i].name;
-  elem2.appendChild(elem3);
-  let elem4 = document.createElement("p");
-  elem4.innerHTML = gameObject.games[i].name;
-  elem4.className = "Imgtext"
-  elem2.appendChild(elem4);
-  let elem5 = document.createElement("d3");
-  elem5.innerHTML = gameObject.games[i].creator;
-  elem5.className = "CreatorText"
-  elem2.appendChild(elem5);
+    if (gameObject.games[i].Visible) {
+        let elem1 = document.createElement("div");
+        elem1.className = "gameframe";
+        document.getElementById("gameid").appendChild(elem1);
+        let elem2 = document.createElement("a");
+        elem2.href = gameObject.games[i].path;
+        elem1.appendChild(elem2);
+        let elem3 = document.createElement("img");
+        elem3.src = gameObject.games[i].image;
+        elem3.alt = gameObject.games[i].name;
+        elem2.appendChild(elem3);
+        let elem4 = document.createElement("p");
+        elem4.innerHTML = gameObject.games[i].name;
+        elem4.className = "Imgtext"
+        elem2.appendChild(elem4);
+        let elem5 = document.createElement("d3");
+        elem5.innerHTML = gameObject.games[i].creator;
+        elem5.className = "CreatorText"
+        elem2.appendChild(elem5);
+    } else {
+        console.log('The game: ', gameObject.games[i].name, 'hasnt been loaded due to it not having needed bool')
+    }
+    
 }
 const gamesContainer = document.getElementById("gameid");
 const searchBar = document.getElementById("game-search");
