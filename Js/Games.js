@@ -71,6 +71,13 @@ var LocalGames = `{
           "Visible": true
       },
       {
+          "name": "Descent",
+          "creator": "Sakkat Studio",
+          "path": "/Games/Descent.html",
+          "image": "/Images/Images/Descent.png",
+          "Visible": true
+      },
+      {
           "name": "Doodle Jump",
           "creator": "Lima Sky",
           "path": "/Games/doodlejump.html",
@@ -138,6 +145,13 @@ var LocalGames = `{
           "creator": "MarketJS",
           "path": "/Games/L2f3.html",
           "image": "/Images/Images/L2F3.png",
+          "Visible": true
+      },
+      {
+          "name": "Level Devil",
+          "creator": "Unept",
+          "path": "/Games/LevelDevil.html",
+          "image": "/Images/Images/LevelDevil.png",
           "Visible": true
       },
       {
