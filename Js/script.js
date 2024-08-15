@@ -1,35 +1,32 @@
+var is_fullscreen = false;
 function openFullscreen() {
-  var elem = document.getElementById("iframe");
-  if (elem.requestFullscreen) {
-      elem.requestFullscreen();
-  } else if (elem.mozRequestFullScreen) { /* Firefox */
-      elem.mozRequestFullScreen();
-  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-      elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE/Edge */
-      elem.msRequestFullscreen();
-  }
+	let game = document.getElementById("iframe");
+	if(is_fullscreen){
+		// Exit fullscreen
+		is_fullscreen = false;
+			if (game.requestFullscreen) {
+				game.requestFullscreen();
+			} else if (game.mozRequestFullScreen) { /* Firefox */
+				game.mozRequestFullScreen();
+			} else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+				game.webkitRequestFullscreen();
+			} else if (game.msRequestFullscreen) { /* IE/Edge */
+				game.msRequestFullscreen();
+			}
+		}
+		// Enter fullscreen
+		is_fullscreen = true;
+			if (game.requestFullscreen) {
+				game.requestFullscreen();
+			} else if (game.mozRequestFullScreen) { /* Firefox */
+				game.mozRequestFullScreen();
+			} else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+				game.webkitRequestFullscreen();
+			} else if (game.msRequestFullscreen) { /* IE/Edge */
+				game.msRequestFullscreen();
+			}
+		}
 
-  // Show exit button on mobile devices
-  if (is_mobile_device()) {
-      document.getElementById("exitButton").style.display = "block";
-  }
-}
-
-function exitFullscreen() {
-  if (document.exitFullscreen) {
-      document.exitFullscreen();
-  } else if (document.mozCancelFullScreen) { /* Firefox */
-      document.mozCancelFullScreen();
-  } else if (document.webkitExitFullscreen) { /* Chrome, Safari & Opera */
-      document.webkitExitFullscreen();
-  } else if (document.msExitFullscreen) { /* IE/Edge */
-      document.msExitFullscreen();
-  }
-
-  // Hide exit button
-  document.getElementById("exitButton").style.display = "none";
-}
 function is_mobile_device(){
 	if (navigator.userAgent.match(/Android/i)
 	|| navigator.userAgent.match(/webOS/i)

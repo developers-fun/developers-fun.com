@@ -193,7 +193,7 @@ var LocalGames = `{
           "name": "Tag",
           "creator": "JetGames",
           "path": "Games/Tag.html",
-          "image": "Images/Images/Tag.png",
+          "image": "/Images/Images/Tag.png",
           "Visible": true
       }
   ]
