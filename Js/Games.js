@@ -210,6 +210,13 @@ var LocalGames = `{
           "image": "/Images/Images/SoccerRandom.jfif",
           "Visible": true
       },
+            {
+          "name": "Stacktris",
+          "creator": "Fancade",
+          "path": "/Games/stacktris.html",
+          "image": "/Images/Images/stacktris.png",
+          "Visible": true
+      },
       {
           "name": "Table Tennis World Tour",
           "creator": "Yakuto",
