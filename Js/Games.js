@@ -215,7 +215,7 @@ var LocalGames = `{
           "creator": "Fancade",
           "path": "/Games/stacktris.html",
           "image": "/Images/Images/stacktris.png",
-          "Visible": true
+          "Visible": false
       },
       {
           "name": "Table Tennis World Tour",
