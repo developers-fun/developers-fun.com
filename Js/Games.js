@@ -117,7 +117,7 @@ var LocalGames = `{
           "creator": "Fancade",
           "path": "/Games/Gobble.html",
           "image": "/Images/Images/Gobble.png",
-          "Visible": true
+          "Visible": false
       },
       {
           "name": "Hextris",
