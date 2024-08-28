@@ -117,7 +117,7 @@ var LocalGames = `{
           "creator": "Fancade",
           "path": "/Games/Gobble.html",
           "image": "/Images/Images/Gobble.png",
-          "Visible": True
+          "Visible": true
       },
       {
           "name": "Hextris",
@@ -215,7 +215,7 @@ var LocalGames = `{
           "creator": "Fancade",
           "path": "/Games/stacktris.html",
           "image": "/Images/Images/stacktris.png",
-          "Visible": True
+          "Visible": true
       },
       {
           "name": "Subway Surfers",
