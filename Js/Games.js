@@ -1,5 +1,5 @@
 var LocalGames = `{
-  "games": [
+  " games": [
       {
           "name": "1v1.lol",
           "creator": "JustPlay.LOL",
@@ -234,7 +234,7 @@ var LocalGames = `{
       {
           "name": "Tag",
           "creator": "JetGames",
-          "path": "Games/Tag.html",
+          "path": "/Games/Tag.html",
           "image": "/Images/Images/Tag.png",
           "Visible": true
       }
@@ -242,7 +242,7 @@ var LocalGames = `{
 }`
 var gameObject = JSON.parse(LocalGames);
 for (i in gameObject.games) {
-    if (gameObject.games[i].Visible) {
+    if (gameObject.games[i].Visible === "true") {
         let elem1 = document.createElement("div");
         elem1.className = "gameframe";
         document.getElementById("gameid").appendChild(elem1);
