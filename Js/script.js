@@ -68,6 +68,26 @@ function URLChecker() {
     loco = "/index.html"
 }
 }
+function createCookie() {
+    document.cookie = "Restricted=True";
+}
+function getCookie(Name) {
+    const name = Name + "=";
+    const cDecoded = decodeURIComponent(document.cookie); //to be careful
+    const cArr = cDecoded.split('; ');
+    let res;
+    cArr.forEach(val => {
+      if (val.indexOf(name) === 0) res = val.substring(name.length);
+    })
+    return res
+  }
+  function Redirect() {
+        window.location.href = "https://www.google.com/";
+  }
+
+  if (getCookie(Name = "Restricted") === "True") {
+    Redirect()
+  }
 
 onload = URLChecker()
 window.onload = changeicon()
