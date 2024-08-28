@@ -1,5 +1,5 @@
 var LocalGames = `{
-  " games": [
+  "games": [
       {
           "name": "1v1.lol",
           "creator": "JustPlay.LOL",
@@ -242,7 +242,7 @@ var LocalGames = `{
 }`
 var gameObject = JSON.parse(LocalGames);
 for (i in gameObject.games) {
-    if (gameObject.games[i].Visible === "true") {
+    if (gameObject.games[i].Visible) {
         let elem1 = document.createElement("div");
         elem1.className = "gameframe";
         document.getElementById("gameid").appendChild(elem1);
