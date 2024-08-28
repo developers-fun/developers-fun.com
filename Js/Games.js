@@ -117,7 +117,7 @@ var LocalGames = `{
           "creator": "Fancade",
           "path": "/Games/Gobble.html",
           "image": "/Images/Images/Gobble.png",
-          "Visible": false
+          "Visible": True
       },
       {
           "name": "Hextris",
@@ -215,7 +215,14 @@ var LocalGames = `{
           "creator": "Fancade",
           "path": "/Games/stacktris.html",
           "image": "/Images/Images/stacktris.png",
-          "Visible": false
+          "Visible": True
+      },
+      {
+          "name": "Subway Surfers",
+          "creator": "Sybo Games",
+          "path": "/Games/SubwaySurfers.html",
+          "image": "/Images/Images/SubwaySurfers.png",
+          "Visible": true
       },
       {
           "name": "Table Tennis World Tour",
