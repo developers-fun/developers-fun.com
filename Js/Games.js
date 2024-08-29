@@ -242,7 +242,7 @@ var LocalGames = `{
           "name": "Tiny-Fishing",
           "creator": "Mad Buffer",
           "path": "/Games/Tiny-Fishing.html",
-          "image": "/Images/Images/Tag.png",
+          "image": "/Images/Images/Tiny-Fishing.png",
           "Visible": true
       }
   ]
