@@ -54,7 +54,7 @@ var LocalGames = `{
           "creator": "Game Distribution",
           "path": "/Games/Coreball.html",
           "image": "/Images/Images/Coreball.png",
-          "Visible": true
+          "Visible": false
       },
       {
           "name": "Dadish",
