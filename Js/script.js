@@ -1,31 +1,42 @@
 var is_fullscreen = false;
+
 function openFullscreen() {
-	let game = document.getElementById("iframe");
-	if(is_fullscreen){
-		// Exit fullscreen
-		is_fullscreen = false;
-			if (game.requestFullscreen) {
-				game.requestFullscreen();
-			} else if (game.mozRequestFullScreen) { /* Firefox */
-				game.mozRequestFullScreen();
-			} else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-				game.webkitRequestFullscreen();
-			} else if (game.msRequestFullscreen) { /* IE/Edge */
-				game.msRequestFullscreen();
-			}
-		}
-		// Enter fullscreen
-		is_fullscreen = true;
-			if (game.requestFullscreen) {
-				game.requestFullscreen();
-			} else if (game.mozRequestFullScreen) { /* Firefox */
-				game.mozRequestFullScreen();
-			} else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-				game.webkitRequestFullscreen();
-			} else if (game.msRequestFullscreen) { /* IE/Edge */
-				game.msRequestFullscreen();
-			}
-		}
+    let game = document.getElementById("game-area");
+    let Button = document.getElementById('mobile-back-button');
+
+    // Check if the document is in fullscreen mode
+    if (document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
+        // Exit fullscreen
+        if (is_mobile_device()) {
+            Button.style.display = "none";
+        }
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.mozCancelFullScreen) { /* Firefox */
+            document.mozCancelFullScreen();
+        } else if (document.webkitExitFullscreen) { /* Chrome, Safari, and Opera */
+            document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) { /* IE/Edge */
+            document.msExitFullscreen();
+        }
+        is_fullscreen = false; // Update the fullscreen state
+    } else {
+        // Enter fullscreen
+        if (is_mobile_device()) {
+            Button.style.display = "flex";
+        }
+        if (game.requestFullscreen) {
+            game.requestFullscreen();
+        } else if (game.mozRequestFullScreen) { /* Firefox */
+            game.mozRequestFullScreen();
+        } else if (game.webkitRequestFullscreen) { /* Chrome, Safari, and Opera */
+            game.webkitRequestFullscreen();
+        } else if (game.msRequestFullscreen) { /* IE/Edge */
+            game.msRequestFullscreen();
+        }
+        is_fullscreen = true; // Update the fullscreen state
+    }
+}
 
 function is_mobile_device(){
 	if (navigator.userAgent.match(/Android/i)
