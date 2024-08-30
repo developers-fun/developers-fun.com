@@ -1,7 +1,7 @@
 var is_fullscreen = false;
 
 function openFullscreen() {
-    let game = document.getElementById("game-area");
+    let game = document.getElementById("iframe");
     let Button = document.getElementById('mobile-back-button');
 
     // Check if the document is in fullscreen mode
