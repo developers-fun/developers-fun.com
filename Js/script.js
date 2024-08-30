@@ -1,8 +1,7 @@
 var is_fullscreen = false;
 
 function openFullscreen() {
-    let game = document.getElementById("iframe")
-    let game-area = document.getElementById("game-area");
+    let game = document.getElementById("game-area");
     let Button = document.getElementById('mobile-back-button');
 
     // Check if the document is in fullscreen mode
@@ -10,15 +9,6 @@ function openFullscreen() {
         // Exit fullscreen
         if (is_mobile_device()) {
             Button.style.display = "none";
-	if (document.exitFullscreen) {
-            document.exitFullscreen();
-        } else if (document.mozCancelFullScreen) { /* Firefox */
-            document.mozCancelFullScreen();
-        } else if (document.webkitExitFullscreen) { /* Chrome, Safari, and Opera */
-            document.webkitExitFullscreen();
-        } else if (document.msExitFullscreen) { /* IE/Edge */
-            document.msExitFullscreen();
-        }
         }
         if (document.exitFullscreen) {
             document.exitFullscreen();
@@ -29,23 +19,13 @@ function openFullscreen() {
         } else if (document.msExitFullscreen) { /* IE/Edge */
             document.msExitFullscreen();
         }
-	is_fullscreen = false; // Update the fullscreen state
+        is_fullscreen = false; // Update the fullscreen state
     } else {
         // Enter fullscreen
         if (is_mobile_device()) {
             Button.style.display = "flex";
-	if (game-area.requestFullscreen) {
-            game-area.requestFullscreen();
-        } else if (game-area.mozRequestFullScreen) { /* Firefox */
-            game-area.mozRequestFullScreen();
-        } else if (game-area.webkitRequestFullscreen) { /* Chrome, Safari, and Opera */
-            game-area.webkitRequestFullscreen();
-        } else if (game-area.msRequestFullscreen) { /* IE/Edge */
-            game-area.msRequestFullscreen();
         }
-	is_fullscreen = true; // Update the fullscreen state
-        } else {
-	if (game.requestFullscreen) {
+        if (game.requestFullscreen) {
             game.requestFullscreen();
         } else if (game.mozRequestFullScreen) { /* Firefox */
             game.mozRequestFullScreen();
