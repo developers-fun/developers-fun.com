@@ -333,7 +333,7 @@ html, body{
     font-size: 1vw;
   }
   #mobile-back-button {
-    display: flex;
+    display: none;
     align-items: center;
     position: fixed;
     z-index: 101;
@@ -346,7 +346,4 @@ html, body{
     border-radius: 0px 16px 16px 0px;
     overflow: hidden;
     cursor: pointer;
-}
-.bi-x-circle-fill::before {
-  content: "\f622";
 }
