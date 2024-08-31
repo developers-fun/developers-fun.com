@@ -345,6 +345,3 @@ html, body{
     overflow: hidden;
     cursor: pointer;
 }
-.bi-x-circle-fill::before {
-  content: "\f622";
-}
