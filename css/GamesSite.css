@@ -40,20 +40,18 @@ html, body{
     font-size: 35px;
   }
   #iframe{
-    width: 60.6vw;
+    width: 70.6vw;
     height: 500px;
     border: 0;
-    border-radius: 25px 25px 0 0 ;
-    margin-left: 100px;
+    border-radius: 25px 25px 0 0;
+    margin-left: 50px;
     margin-top: 10px;
-    background-color: #0B1313;
-    
   }
   .Tag{
     margin: auto;
-    width: 60.6vw;
+    width: 70.6vw;
     height: 70px;
-    margin-left: 100px;
+    margin-left: 50px;
     display: flex;
     align-items: center;
     background-color: #9000607c;
@@ -333,7 +331,7 @@ html, body{
     font-size: 1vw;
   }
   #mobile-back-button {
-    display: flex;
+    display: none;
     align-items: center;
     position: fixed;
     z-index: 101;
