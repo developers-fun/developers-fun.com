@@ -176,6 +176,13 @@ var LocalGames = `{
           "Visible": true
       },
       {
+          "name": "Murder",
+          "creator": "Studio Seufz",
+          "path": "/Games/Murder.html",
+          "image": "/Images/Images/Murder.png",
+          "Visible": true
+      },
+      {
           "name": "Ragdoll Hit",
           "creator": "Ericetto",
           "path": "/Games/RagdollHit.html",
