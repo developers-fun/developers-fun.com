@@ -34,7 +34,7 @@ banner{
   right: 20px;
   transition: ease-in .5s;
 }
-img{
+img, .list-image{
   width: 90px;
   height: 90px;
   border-radius: 20px;
@@ -212,11 +212,71 @@ d3{
   font-size: 40px;
   margin-bottom: 50px;
 }
-.section-title {
-  margin-bottom: 30px;
-  color: #fff;
-  font-weight: bold;
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 10px;
 }
-.section-title {
-  font-size: 1.3rem;
+
+.SmallBox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 90px;
+  width: 20vw;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.1);
+  transition: background-color 0.3s ease;
 }
+
+.SmallBox:hover {
+  background-color: rgba(128, 128, 128, 0.3);
+}
+
+.SmallBox img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.d2 {
+  font-size: 25px;
+  color: white;
+  margin: 0;
+}
+
+.d3 {
+  font-size: 15px;
+  color: gray;
+  margin: 0;
+}
+
+.list-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap: 5px;
+}
+
+.list-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  margin-left: 5px;
+}
+
+.list-category {
+  color: gray;
+  font-size: 15px;
+  margin-left: 5px;
+}    
