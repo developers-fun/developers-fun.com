@@ -212,71 +212,42 @@ d3{
   font-size: 40px;
   margin-bottom: 50px;
 }
-
-.box-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: flex-start;
-  padding: 10px;
+.list-title{
+  font-size: 20px;
 }
+.Box-Image{
+  width: 80px;
+  height: 80px;
+}
+.Boxes {
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start; 
+}
+
 
 .SmallBox {
   display: flex;
   align-items: center;
-  gap: 15px;
+  width: 300px;
   height: 90px;
-  width: 20vw;
   border-radius: 20px;
   padding: 10px;
-  background-color: rgba(128, 128, 128, 0.1);
-  transition: background-color 0.3s ease;
+  margin-left: 30px;
+  margin-top: 25px;
 }
 
 .SmallBox:hover {
-  background-color: rgba(128, 128, 128, 0.3);
+  background-color: rgba(66, 66, 66, 0.425);
 }
 
-.SmallBox img {
-  width: 80px;
-  height: 80px;
-  border-radius: 10px;
-  object-fit: cover;
-}
-
-.text-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.d2 {
-  font-size: 25px;
-  color: white;
-  margin: 0;
-}
-
-.d3 {
-  font-size: 15px;
-  color: gray;
-  margin: 0;
-}
-
-.list-info {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  gap: 5px;
-}
-
-.list-title {
+.GameName {
   font-size: 20px;
-  font-weight: 500;
   color: white;
-  margin-left: 5px;
 }
 
-.list-category {
-  color: gray;
+.AuthorName {
   font-size: 15px;
-  margin-left: 5px;
-}    
+  color: gray;
+}

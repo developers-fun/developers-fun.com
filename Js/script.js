@@ -115,7 +115,6 @@ function getCookie(Name) {
     Redirect()
   }
 
-onload = URLChecker()
 window.onload = changeicon()
 window.onload = hideImgTextOnMobile();
 
