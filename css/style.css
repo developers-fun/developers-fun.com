@@ -19,10 +19,75 @@ body{
   max-width: 100%;
   flex-wrap: wrap;
 }
-banner{
-  background-color: #900060;
-  height: 60px;
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navbar {
   width: 100%;
+  height: 60px;
+  background-color: rgb(255, 255, 255, 0.01); /* Dark background color */
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  top: 0;
+  z-index: 1000; /* Keeps it above other content */
+}
+
+/* Brand Section */
+.navbar-brand {
+  flex: 1; /* Pushes the brand name to the left */
+}
+
+.brand-name {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Navigation Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Space between links */
+  transition: all 0.3s ease;
+}
+
+/* Navigation Links Items */
+.navbar-links .nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+/* Hamburger Icon for Small Screens */
+.hamburger {
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+}
+
+/* Responsive Design: Hide Links on Small Screens */
+@media (max-width: 768px) {
+  .navbar-links {
+      display: none; /* Hide the links when the screen is small */
+  }
+
+  .hamburger {
+      display: flex; /* Show the hamburger icon on small screens */
+  }
 }
 .backtogame{
   width: 60px;
@@ -37,6 +102,13 @@ banner{
 img, .list-image{
   width: 90px;
   height: 90px;
+  border-radius: 20px;
+}
+.GameImgs{
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+  margin-top: 20px;
   border-radius: 20px;
 }
 .Buttons{

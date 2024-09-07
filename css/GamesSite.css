@@ -34,10 +34,12 @@ html, body{
     top: 50%;
     color: white;
   }
-  .fullscreentext{ 
-    margin-left: 5px;
-    color: white; 
-    font-size: 35px;
+  .FullscreenImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    float: right;
+    margin-right: 20px;
   }
   #iframe{
     width: 67.6vw;
@@ -47,17 +49,39 @@ html, body{
     margin-left: 50px;
     margin-top: 10px;
   }
-  .Tag{
+  .Tag {
     margin: auto;
-    width: 70.6vw;
-    height: 70px;
+    width: 67.6vw;
+    height: 100px; /* Increased height to accommodate text stacking */
     margin-left: 50px;
     display: flex;
-    align-items: center;
+    align-items: center; /* Center items vertically */
     background-color: #9000607c;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-  }
+}
+.TagImg{
+  width: 90px;
+  height: 90px;
+  border-radius: 16px;
+  margin-left: 10px;
+}
+.TagTextContainer {
+    display: flex;
+    flex-direction: column; /* Stack the text vertically */
+    margin-left: 10px; /* Add some space between the image and text */
+}
+
+.TagGameName {
+    font-size: 25px;
+    margin-top: 1px;
+    margin-bottom: 5px; /* Add some spacing between the game name and creator */
+}
+
+.TagGameCreator {
+    font-size: 25px;
+    color: #616161;
+}
   .Button{
     background-color: rgb(165, 0, 0);
     width: 20%;
