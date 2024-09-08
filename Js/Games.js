@@ -303,7 +303,7 @@ var LocalGames = `{
             "image": "/Images/Images/Tiny-Fishing.png",
             "Visible": true,
             "Hot": true
-        }
+        },
         {
             "name": "Zeepkist Crash",
             "creator": "Steelpan Interactive",
