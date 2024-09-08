@@ -296,11 +296,19 @@ var LocalGames = `{
             "Visible": true,
             "Hot": true
         },
-              {
+        {
             "name": "Tiny-Fishing",
             "creator": "Mad Buffer",
             "path": "/Games/Tiny-Fishing.html",
             "image": "/Images/Images/Tiny-Fishing.png",
+            "Visible": true,
+            "Hot": true
+        }
+        {
+            "name": "Zeepkist Crash",
+            "creator": "Steelpan Interactive",
+            "path": "/Games/Zeepkist-Crash.html",
+            "image": "/Images/Images/Zeepkist-Crash.png",
             "Visible": true,
             "Hot": true
         }
