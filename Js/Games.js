@@ -222,7 +222,7 @@ var LocalGames = `{
             "path": "/Games/RagdollHit.html",
             "image": "/Images/Images/RagdollHit.png",
             "Visible": false,
-            "Hot": true
+            "Hot": false
         },
         {
             "name": "RetroBowl",
