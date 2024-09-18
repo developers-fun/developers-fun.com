@@ -197,7 +197,7 @@ var LocalGames = `{
             "creator": "Unknown",
             "path": "/Games/MotoRoadRash3D.html",
             "image": "/Images/Images/MotoRoadRash3D.jfif",
-            "Visible": true,
+            "Visible": false,
             "Hot": false
         },
         {
@@ -222,7 +222,7 @@ var LocalGames = `{
             "path": "/Games/RagdollHit.html",
             "image": "/Images/Images/RagdollHit.png",
             "Visible": false,
-            "Hot": true
+            "Hot": false
         },
         {
             "name": "RetroBowl",
