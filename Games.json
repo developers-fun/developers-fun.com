@@ -33,6 +33,14 @@
             "Hot": false
         },
         {
+            "name": "Blumgi Slimes",
+            "creator": "Blumgi",
+            "path": "/Games/blumgi-slime.html",
+            "image": "/Images/Images/blumgi-slime.png",
+            "Visible": true,
+            "Hot": true
+        },
+        {
             "name": "Clicker Heroes",
             "creator": "Playsaurus",
             "path": "/Games/ClickerHeroes.html",
@@ -117,7 +125,8 @@
             "creator": "Gametornado",
             "path": "Games/Eugene's-Life.html",
             "image": "Images/Images/EugenesLife.png",
-            "Visible": true
+            "Visible": true,
+            "Hot": true
         },
         {
             "name": "Fruit Ninja",
