@@ -4,17 +4,11 @@ fetch('/Games.json')
   if (document.getElementById("gameid")) {
     for (i in gameObject.games) {
         if (gameObject.games[i].Visible && document.getElementById("gameid")) {
-            let elem1 = document.createElement("div");
-            elem1.className = "gameimg";
+            let elem1 = document.createElement("img");
+            elem1.src = gameObject.games[i].image;
+            elem1.alt = gameObject.games[i].name;
+            elem1.className = "GameImgs";
             document.getElementById("gameid").appendChild(elem1);
-            let elem2 = document.createElement("a");
-            elem2.href = gameObject.games[i].path;
-            elem1.appendChild(elem2);
-            let elem3 = document.createElement("img");
-            elem3.src = gameObject.games[i].image;
-            elem3.alt = gameObject.games[i].name;
-            elem3.className = "GameImgs";
-            elem2.appendChild(elem3);
         } else {
             console.log('The game: ', gameObject.games[i].name, 'hasnt been loaded due to it not having needed bool')
         }
@@ -57,26 +51,5 @@ fetch('/Games.json')
             console.log(gameObject.games[i].name);
         }
   }
-    
-  const gamesContainer = document.getElementById("gameid");
-  const searchBar = document.getElementById("game-search");
-  searchBar.addEventListener('input', (e) => {
-    const query = searchBar.value.trim().toLowerCase();
-    for (let game of gamesContainer.children) {
-      if (game instanceof Element) {
-        if (query) {
-          const gameName = game.querySelector('p').innerText.trim().toLowerCase();
-          const gameCreate = game.querySelector('d3').innerText.trim().toLowerCase();
-          if (gameName.includes(query) || gameCreate.includes(query)) {
-            game.removeAttribute('hidden');
-          } else {
-            game.setAttribute('hidden', '');
-          }
-        } else {
-          game.removeAttribute('hidden');
-        }
-      }
-    }
-  });
   }
 })
