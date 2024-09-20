@@ -1,8 +1,6 @@
 require('dotenv').config();
-let isWebhookSent = false; // Declare this at the top
 
 function message() {
-  if (isWebhookSent) return; // Prevent spamming
 
   let name = document.getElementById("Input1").value;
   let message = document.getElementById("Input2").value;
@@ -23,7 +21,4 @@ function message() {
   };
 
   request.send(JSON.stringify(params));
-  
-  isWebhookSent = true; // Set flag to true after sending the request
-  alert("Message sent!"); // Notify user
 }
