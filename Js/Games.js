@@ -113,6 +113,13 @@ var LocalGames = `{
             "Hot": false
         },
         {
+            "name": "Eugene's Life",
+            "creator": "Gametornado",
+            "path": "Games/Eugene's-Life.html",
+            "image": "Images/Images/EugenesLife.png",
+            "Visible": true
+        },
+        {
             "name": "Fruit Ninja",
             "creator": "Halfbrick Studios",
             "path": "/Games/FruitNinja.html",
