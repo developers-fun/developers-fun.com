@@ -4,11 +4,15 @@ fetch('/Games.json')
   if (document.getElementById("gameid")) {
     for (i in gameObject.games) {
         if (gameObject.games[i].Visible && document.getElementById("gameid")) {
-            let elem1 = document.createElement("img");
-            elem1.src = gameObject.games[i].image;
+            let elem1 = document.createElement("a");
             elem1.alt = gameObject.games[i].name;
-            elem1.className = "GameImgs";
+            elem1.href = gameObject.games[i].path;
             document.getElementById("gameid").appendChild(elem1);
+            let elem2 = document.createElement("img");
+            elem2.src = gameObject.games[i].image;
+            elem2.alt = gameObject.games[i].name;
+            elem2.className = "GameImgs";
+            elem1.appendChild(elem2)
         } else {
             console.log('The game: ', gameObject.games[i].name, 'hasnt been loaded due to it not having needed bool')
         }
