@@ -1,4 +1,4 @@
-require('dotenv').config();
+
 
 function message() {
 
@@ -10,7 +10,7 @@ function message() {
     return;
   }
 
-  const webhook = process.env.webhook; // Replace with actual webhook URL
+  const webhook = https://discord.com/api/webhooks/1275787515265028137/9lD2eThfQV6dcIuBvijt5EsmYRPAwVsotPpeO_4M-J5eAwgilvciOcAddLuOghw5CcHI; // Replace with actual webhook URL
   const contents = `A user wanted the game: ${name}\nWith the URL: ${message} <@760521438326554634>`;
   const request = new XMLHttpRequest();
   request.open("POST", webhook);
