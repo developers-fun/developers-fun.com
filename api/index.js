@@ -46,8 +46,3 @@ app.post('/api', (req, res) => {
       res.status(500).json({ error: 'Failed to send webhook', details: error.message });
     });
 });
-
-// Start the server
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
