@@ -46,3 +46,9 @@ app.post('/api', (req, res) => {
       res.status(500).json({ error: 'Failed to send webhook', details: error.message });
     });
 });
+
+app.listen("/api", (req, res) => {
+  {
+    "WSP"
+  }
+})
