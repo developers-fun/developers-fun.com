@@ -13,7 +13,7 @@ function message() {
   };
 
   const request = new XMLHttpRequest();
-  request.open("POST", "developers-fun.com/api", true);
+  request.open("POST", "https://developers-fun-com-api-u0yp.onrender.com/api", true);
   request.setRequestHeader('Content-Type', 'application/json');
 
   // Handle success or error response
