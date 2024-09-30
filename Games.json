@@ -9,6 +9,14 @@
             "Hot": true
         },
         {
+            "name": "2 minute football",
+            "creator": "igamebank",
+            "path": "/Games/2-minute-football.html",
+            "image": "/Images/Images/2-minute-football.png",
+            "Visible": true,
+            "Hot": true
+        },
+        {
             "name": "Among Us",
             "creator": "InnerSloth",
             "path": "/Games/amongus.html",
@@ -159,6 +167,14 @@
             "image": "/Images/Images/hextris.png",
             "Visible": true,
             "Hot": false
+        },
+        {
+            "name": "Hover Racer Drive",
+            "creator": "Unknown",
+            "path": "/Games/hoverracerdrive.html",
+            "image": "/Images/Images/hover-racer-drive.png",
+            "Visible": true,
+            "Hot": true
         },
         {
             "name": "Jetpack Joyride",
