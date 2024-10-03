@@ -229,8 +229,8 @@
             "creator": "Unknown",
             "path": "/Games/MotoRoadRash3D.html",
             "image": "/Images/Images/MotoRoadRash3D.jfif",
-            "Visible": false,
-            "Hot": false
+            "Visible": true,
+            "Hot": true
         },
         {
             "name": "MotoX3M",
