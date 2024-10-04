@@ -108,7 +108,7 @@ function getCookie(Name) {
     return res
   }
   function Redirect() {
-        window.location.href = "https://www.google.com/";
+        window.location.href = "https://developers-fun.com/ban.html";
   }
 
   if (getCookie(Name = "Restricted") === "True") {
