@@ -253,8 +253,8 @@
             "creator": "Ericetto",
             "path": "/Games/RagdollHit.html",
             "image": "/Images/Images/RagdollHit.png",
-            "Visible": false,
-            "Hot": false
+            "Visible": true,
+            "Hot": true
         },
         {
             "name": "RetroBowl",
