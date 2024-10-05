@@ -108,7 +108,7 @@ function getCookie(Name) {
     return res
   }
   function Redirect() {
-        window.location.href = "https://www.google.com/";
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
   }
 
   if (getCookie(Name = "Restricted") === "True") {
