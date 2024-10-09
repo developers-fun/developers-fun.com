@@ -246,7 +246,7 @@
             "path": "/Games/Murder.html",
             "image": "/Images/Images/Murder.png",
             "Visible": true,
-            "Hot": true
+            "Hot": false
         },
         {
             "name": "Ragdoll Hit",
@@ -261,6 +261,14 @@
             "creator": "New Star Games",
             "path": "/Games/Retrobowl.html",
             "image": "/Images/Images/Retrobowl.png",
+            "Visible": true,
+            "Hot": true
+        },
+        {
+            "name": "Slice Master",
+            "creator": "Unknown",
+            "path": "/Games/Slice-Master.html",
+            "image": "/Images/Images/slice-master.png",
             "Visible": true,
             "Hot": true
         },
