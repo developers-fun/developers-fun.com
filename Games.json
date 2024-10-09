@@ -269,8 +269,8 @@
             "creator": "Unknown",
             "path": "/Games/Slice-Master.html",
             "image": "/Images/Images/slice-master.png",
-            "Visible": true,
-            "Hot": true
+            "Visible": false,
+            "Hot": false
         },
         {
             "name": "Slope",
@@ -318,7 +318,7 @@
             "path": "/Games/SubwaySurfers.html",
             "image": "/Images/Images/SubwaySurfers.png",
             "Visible": true,
-            "Hot": false
+            "Hot": true
         },
         {
             "name": "Table Tennis World Tour",
