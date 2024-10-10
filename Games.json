@@ -261,8 +261,8 @@
             "creator": "New Star Games",
             "path": "/Games/Retrobowl.html",
             "image": "/Images/Images/Retrobowl.png",
-            "Visible": true,
-            "Hot": true
+            "Visible": false,
+            "Hot": false
         },
         {
             "name": "Slice Master",
