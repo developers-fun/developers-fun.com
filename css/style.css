@@ -89,6 +89,26 @@ body{
       display: flex; /* Show the hamburger icon on small screens */
   }
 }
+.desclaimer{
+  background-color: rgb(255, 255, 255, 0.05);
+  width: 85vw;
+  height: 300px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  margin-left: 45px;
+  margin-top: 50px;
+  padding: 5px;
+}
+.desclaimer-title{
+  font-size: 30px;
+}
+.desclaimer-paragraph{
+  font-size: 18px;
+  margin-top: 20px;
+}
+.disclaimer-gmail{
+  font-size: 15px;
+}
 .backtogame{
   width: 60px;
   height: 60px;
