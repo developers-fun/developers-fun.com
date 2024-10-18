@@ -1,65 +1,44 @@
-let is_fullscreen = false
-function openFullscreen() {
-    let iframe = document.getElementById('iframe');
-    let game = document.getElementById("game-area");
-    let Button = document.getElementById('mobile-back-button');
-
-    if (document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
-        // Exit fullscreen
-        if (is_mobile_device()) {
-            Button.style.display = "none";
-            iframe.style.width = "";  // Reset width
-            iframe.style.height = ""; // Reset height
-            iframe.style.borderRadius = "";
-            iframe.style.marginLeft = "";
-            iframe.style.marginRight = "";
-        }
-
-        if (document.exitFullscreen) {
-            document.exitFullscreen();
-        } else if (document.mozCancelFullScreen) { // Firefox
-            document.mozCancelFullScreen();
-        } else if (document.webkitExitFullscreen) { // Chrome, Safari, and Opera
-            document.webkitExitFullscreen();
-        } else if (document.msExitFullscreen) { // IE/Edge
-            document.msExitFullscreen();
-        }
-
-        is_fullscreen = false; // Update the fullscreen state
-    } else {
-        // Enter fullscreen
-        if (is_mobile_device()) {
-            Button.style.display = "flex";
-            iframe.style.width = "100%"; // Full width of the game area
-            iframe.style.height = "100%"; // Full height of the game area
-            iframe.style.borderRadius = "0";
-            iframe.style.marginLeft = "0";
-            iframe.style.marginRight = "0";
-
-            if (game.requestFullscreen) {
-                game.requestFullscreen();
-            } else if (game.mozRequestFullScreen) { // Firefox
-                game.mozRequestFullScreen();
-            } else if (game.webkitRequestFullscreen) { // Chrome, Safari, and Opera
-                game.webkitRequestFullscreen();
-            } else if (game.msRequestFullscreen) { // IE/Edge
-                game.msRequestFullscreen();
-            }
-        } else {
-            if (iframe.requestFullscreen) {
-                iframe.requestFullscreen();
-            } else if (iframe.mozRequestFullScreen) { // Firefox
-                iframe.mozRequestFullScreen();
-            } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari, and Opera
-                iframe.webkitRequestFullscreen();
-            } else if (iframe.msRequestFullscreen) { // IE/Edge
-                iframe.msRequestFullscreen();
-            }
-        }
-
-        is_fullscreen = true; // Update the fullscreen state
-    }
-}
+var is_fullscreen = false;
+function open_fullscreen() {
+	let game = document.getElementById("game-area");
+	if(is_fullscreen){
+		// Exit fullscreen
+		is_fullscreen = false;
+		if(is_mobile_device()){
+			game.style.position = "absolute";
+			document.getElementById("mobile-back-button").style.display = "none";
+			document.getElementById("game-player").style.display = "none";
+		} else {
+			if (game.requestFullscreen) {
+				game.requestFullscreen();
+			} else if (game.mozRequestFullScreen) { /* Firefox */
+				game.mozRequestFullScreen();
+			} else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+				game.webkitRequestFullscreen();
+			} else if (game.msRequestFullscreen) { /* IE/Edge */
+				game.msRequestFullscreen();
+			}
+		}
+	} else {
+		// Enter fullscreen
+		is_fullscreen = true;
+		if(is_mobile_device()){
+			document.getElementById("game-player").style.display = "block";
+			game.style.position = "fixed";
+			document.getElementById("mobile-back-button").style.display = "flex";
+		} else {
+			if (game.requestFullscreen) {
+				game.requestFullscreen();
+			} else if (game.mozRequestFullScreen) { /* Firefox */
+				game.mozRequestFullScreen();
+			} else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+				game.webkitRequestFullscreen();
+			} else if (game.msRequestFullscreen) { /* IE/Edge */
+				game.msRequestFullscreen();
+			}
+		}
+	}
+};
 function is_mobile_device(){
 	if (navigator.userAgent.match(/Android/i)
 	|| navigator.userAgent.match(/webOS/i)

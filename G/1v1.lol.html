@@ -29,11 +29,12 @@
       </a>
     </center>
     <div class="game">
-      <div id="game-area">
-        <iframe id="iframe" src="https://files.developers-fun.org/1v1.lol/"></iframe>
-        <div id="mobile-back-button" draggable="true" onclick="openFullscreen()">
+      <div class="game-iframe-container" id="game-player">
+        <div id="mobile-back-button" draggable="true">
           <i class="bi bi-x-circle-fill"></i>
         </div>
+        <iframe class="game-iframe" id="game-area" src="https://files.developers-fun.org/1v1.lol" scrolling="none" frameborder="0" allowfullscreen=""></iframe>
+      </div>
       </div>
       <div class="Tag">
         <img src="/Images/Images/1v1lol.jpg" class="TagImg">
