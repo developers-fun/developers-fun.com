@@ -1,44 +1,46 @@
-var is_fullscreen = false;
-function open_fullscreen() {
-	let game = document.getElementById("game-area");
-	if(is_fullscreen){
-		// Exit fullscreen
-		is_fullscreen = false;
-		if(is_mobile_device()){
-			game.style.position = "absolute";
-			document.getElementById("mobile-back-button").style.display = "none";
-			document.getElementById("game-player").style.display = "none";
-		} else {
-			if (game.requestFullscreen) {
-				game.requestFullscreen();
-			} else if (game.mozRequestFullScreen) { /* Firefox */
-				game.mozRequestFullScreen();
-			} else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-				game.webkitRequestFullscreen();
-			} else if (game.msRequestFullscreen) { /* IE/Edge */
-				game.msRequestFullscreen();
-			}
+function openFullscreen() {
+	const iframe = document.getElementById('iframe');
+	const mobileBackButton = document.getElementById('mobile-back-button');
+
+	if (!document.fullscreenElement) {
+		// Request fullscreen for the iframe
+		if (iframe.requestFullscreen) {
+			iframe.requestFullscreen();
+		} else if (iframe.mozRequestFullScreen) { // Firefox
+			iframe.mozRequestFullScreen();
+		} else if (iframe.webkitRequestFullscreen) { // Chrome, Safari, Opera
+			iframe.webkitRequestFullscreen();
+		} else if (iframe.msRequestFullscreen) { // IE/Edge
+			iframe.msRequestFullscreen();
 		}
-	} else {
-		// Enter fullscreen
-		is_fullscreen = true;
-		if(is_mobile_device()){
-			document.getElementById("game-player").style.display = "block";
-			game.style.position = "fixed";
-			document.getElementById("mobile-back-button").style.display = "flex";
-		} else {
-			if (game.requestFullscreen) {
-				game.requestFullscreen();
-			} else if (game.mozRequestFullScreen) { /* Firefox */
-				game.mozRequestFullScreen();
-			} else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-				game.webkitRequestFullscreen();
-			} else if (game.msRequestFullscreen) { /* IE/Edge */
-				game.msRequestFullscreen();
-			}
+		if (is_mobile_device()) {
+			mobileBackButton.style.display = 'block'; // Show exit button on mobile
 		}
 	}
-};
+}
+
+function exitFullscreen() {
+	const mobileBackButton = document.getElementById('mobile-back-button');
+
+	if (document.fullscreenElement) {
+		// Exit fullscreen
+		if (document.exitFullscreen) {
+			document.exitFullscreen();
+		} else if (document.mozCancelFullScreen) { // Firefox
+			document.mozCancelFullScreen();
+		} else if (document.webkitExitFullscreen) { // Chrome, Safari, Opera
+			document.webkitExitFullscreen();
+		} else if (document.msExitFullscreen) { // IE/Edge
+			document.msExitFullscreen();
+		}
+		mobileBackButton.style.display = 'none'; // Hide exit button
+	}
+}
+
+function mobileFullscreen() {
+	
+}
+
 function is_mobile_device(){
 	if (navigator.userAgent.match(/Android/i)
 	|| navigator.userAgent.match(/webOS/i)

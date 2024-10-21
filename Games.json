@@ -105,6 +105,14 @@
             "Hot": false
         },
         {
+            "name": "Doodle Baseball",
+            "creator": "Google",
+            "path": "/G/Doodle-Baseball.html",
+            "image": "/Images/Images/doodle-Baseball.png",
+            "Visible": true,
+            "Hot": true
+        },
+        {
             "name": "Doodle Jump",
             "creator": "Lima Sky",
             "path": "/G/doodlejump.html",
@@ -143,6 +151,14 @@
             "image": "/Images/Images/Fruit.jfif",
             "Visible": true,
             "Hot": false
+        },
+        {
+            "name": "Geometry Dash",
+            "creator": "RobTop Games",
+            "path": "/G/Geometry-dash.html",
+            "image": "/Images/Images/Geometry-dash.png",
+            "Visible": true,
+            "Hot": true
         },
         {
             "name": "Getaway Shootout",
