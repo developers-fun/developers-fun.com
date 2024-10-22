@@ -1,44 +1,59 @@
+var is_fullscreen = false;
+
+
 function openFullscreen() {
-	const iframe = document.getElementById('iframe');
-	const mobileBackButton = document.getElementById('mobile-back-button');
-
-	if (!document.fullscreenElement) {
-		// Request fullscreen for the iframe
-		if (iframe.requestFullscreen) {
-			iframe.requestFullscreen();
-		} else if (iframe.mozRequestFullScreen) { // Firefox
-			iframe.mozRequestFullScreen();
-		} else if (iframe.webkitRequestFullscreen) { // Chrome, Safari, Opera
-			iframe.webkitRequestFullscreen();
-		} else if (iframe.msRequestFullscreen) { // IE/Edge
-			iframe.msRequestFullscreen();
-		}
-		if (is_mobile_device()) {
-			mobileBackButton.style.display = 'block'; // Show exit button on mobile
-		}
-	}
-}
-
-function exitFullscreen() {
-	const mobileBackButton = document.getElementById('mobile-back-button');
-
-	if (document.fullscreenElement) {
-		// Exit fullscreen
-		if (document.exitFullscreen) {
-			document.exitFullscreen();
-		} else if (document.mozCancelFullScreen) { // Firefox
-			document.mozCancelFullScreen();
-		} else if (document.webkitExitFullscreen) { // Chrome, Safari, Opera
-			document.webkitExitFullscreen();
-		} else if (document.msExitFullscreen) { // IE/Edge
-			document.msExitFullscreen();
-		}
-		mobileBackButton.style.display = 'none'; // Hide exit button
-	}
-}
-
-function mobileFullscreen() {
-	
+    let gamearea = document.getElementById('game-area')
+    let iframe = document.getElementById('iframe')
+    let mobilebackbutton =  document.getElementById("mobile-back-button")
+    
+    if (!is_fullscreen) {
+        if (is_mobile_device()) {
+            iframe.style.width = '100%'
+            iframe.style.height = '100%'
+            iframe.style.borderRadius = '0'
+            iframe.style.marginTop = '0'
+            iframe.style.marginLeft = '0'
+            if (gamearea.requestFullscreen) {
+                gamearea.requestFullscreen();
+            } else if (gamearea.mozRequestFullScreen) { /* Firefox */
+                gamearea.mozRequestFullScreen();
+            } else if (gamearea.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+                gamearea.webkitRequestFullscreen();
+            } else if (gamearea.msRequestFullscreen) { /* IE/Edge */
+                gamearea.msRequestFullscreen();
+            }
+            mobilebackbutton.style.display = 'flex'
+        } else {
+            if (iframe.requestFullscreen) {
+                iframe.requestFullscreen();
+            } else if (iframe.mozRequestFullScreen) { /* Firefox */
+            iframe.mozRequestFullScreen();
+            } else if (iframe.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+            iframe.webkitRequestFullscreen();
+            } else if (iframe.msRequestFullscreen) { /* IE/Edge */
+            iframe.msRequestFullscreen();
+            }
+        }
+        is_fullscreen = true
+    } else {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.mozCancelFullScreen) { /* Firefox */
+            document.mozCancelFullScreen();
+        } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
+            document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) { /* IE/Edge */
+            document.msExitFullscreen();
+        }
+        iframe.style.width = ''
+        iframe.style.height = ''
+        iframe.style.borderRadius = ''
+        iframe.style.marginTop = ''
+        iframe.style.marginLeft = ''
+        mobilebackbutton.style.display = 'none'
+        is_fullscreen = false
+        console.log('exited fullscreen')
+    }
 }
 
 function is_mobile_device(){
