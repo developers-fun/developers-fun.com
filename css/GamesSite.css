@@ -2,6 +2,11 @@
   font-family: "Tilt";
   src: url("/Tilt.ttf");
 }
+@media (max-width: 900px) {
+  .TagGameName, .TagGameCreator{
+    display: none;
+  }
+}
 html, body{
       background-color: hsl(280, 36%, 12%);
       font-family: "Tilt";

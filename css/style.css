@@ -7,6 +7,11 @@
   font-family: "Tilt";
   src: url("/Tilt.ttf");
 }
+@media (max-width: 1200px) {
+  .brand-disclaimer{
+    display: none;
+  }
+}
 body{
     background-color: hsl(280, 36%, 12%);
     font-family: "Tilt";
@@ -39,11 +44,11 @@ body{
 }
 
 /* Brand Section */
-.navbar-brand {
+.navbar-brand{
   flex: 1; /* Pushes the brand name to the left */
 }
 
-.brand-name {
+.brand-name, .brand-disclaimer{
   color: #fff;
   text-decoration: none;
   font-size: 22px;
