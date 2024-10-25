@@ -353,6 +353,14 @@
             "Hot": true
         },
         {
+            "name": "Tag 2",
+            "creator": "JetGames",
+            "path": "/G/Tag2.html",
+            "image": "/Images/Images/Tag2.png",
+            "Visible": true,
+            "Hot": true
+        },
+        {
             "name": "Tiny-Fishing",
             "creator": "Mad Buffer",
             "path": "/G/Tiny-Fishing.html",
