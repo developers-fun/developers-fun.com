@@ -237,6 +237,14 @@
             "creator": "Mojang Studios",
             "path": "/G/Minecraft.html",
             "image": "/Images/Images/MinecraftLogo.png",
+            "Visible": false,
+            "Hot": false
+        },
+        {
+            "name": "Monkey Mart",
+            "creator": "TinyDobbins",
+            "path": "/G/MonkeyMart.html",
+            "image": "/Images/Images/MonkeyMart.png",
             "Visible": true,
             "Hot": false
         },
