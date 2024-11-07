@@ -352,3 +352,43 @@ d3{
   font-size: 15px;
   color: gray;
 }
+
+/* Game Category Styles */
+.game-category {
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.game-row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.game-card {
+    flex: 0 0 auto;
+    width: 17.5vw;
+    padding: 1rem;
+    border-radius: 20px;
+    background: transparent;
+    transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.image-container {
+    position: relative;
+    width: 17.5vw;
+    height: 17.5vw;
+}
+
+.game-card img {
+    width: 13.5vw;
+    height: 13.5vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
