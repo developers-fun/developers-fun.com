@@ -236,20 +236,6 @@
             "IframePath": "/Game/Drive-mad"
         },
         {
-            "name": "Eugene's Life",
-            "creator": "Gametornado",
-            "path": "G/Eugene's-Life.html",
-            "image": "/GameImgs/EugenesLife.png",
-            "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "/Game/Eugene's-Life"
-        },
-        {
             "name": "Fruit Ninja",
             "creator": "Halfbrick Studios",
             "path": "/G/FruitNinja.html",
