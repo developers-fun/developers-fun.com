@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doodle Jump - Your Game Site</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="/">
+                    <i class="fas fa-gamepad"></i>
+                    <h1>Your Game Site</h1>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/popular">Popular</a>
+                <a href="/categories">Categories</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="game-container">
+        <div class="game-frame-wrapper">
+            <iframe id="game-frame" src="/G/doodlejump.html" frameborder="0" scrolling="no"></iframe>
+            <button id="fullscreen-btn" title="Fullscreen">
+                <i class="fas fa-expand"></i>
+            </button>
+        </div>
+        
+        <div class="game-info-bar">
+            <img id="game-thumbnail" src="/GameImgs/Doodlejump.png" alt="Doodle Jump">
+            <div class="game-details">
+                <h1 class="game-title">Doodle Jump</h1>
+                <p class="game-creator">by Lima Sky</p>
+                <div class="game-categories">
+                    <span class="category-tag">Action</span><span class="category-tag">Shooter</span><span class="category-tag">Multiplayer</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="similar-games">
+            <h2>Similar Games</h2>
+            <div class="similar-games-grid">
+                
+                    <a href="/games/1v1.lol.html" class="similar-game-card">
+                        <img src="/GameImgs/1v1lol.jpg" alt="1v1.lol">
+                        <div class="similar-game-info">
+                            <h3>1v1.lol</h3>
+                            <p>by JustPlay.LOL</p>
+                        </div>
+                    </a>
+                
+                    <a href="/games/among-us.html" class="similar-game-card">
+                        <img src="/GameImgs/AmoungUs.png" alt="Among Us">
+                        <div class="similar-game-info">
+                            <h3>Among Us</h3>
+                            <p>by InnerSloth</p>
+                        </div>
+                    </a>
+                
+                    <a href="/games/blumgi-slimes.html" class="similar-game-card">
+                        <img src="/GameImgs/blumgi-slime.png" alt="Blumgi Slimes">
+                        <div class="similar-game-info">
+                            <h3>Blumgi Slimes</h3>
+                            <p>by Blumgi</p>
+                        </div>
+                    </a>
+                
+                    <a href="/games/clicker-heroes.html" class="similar-game-card">
+                        <img src="/GameImgs/clicker-heroes.png" alt="Clicker Heroes">
+                        <div class="similar-game-info">
+                            <h3>Clicker Heroes</h3>
+                            <p>by Playsaurus</p>
+                        </div>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('fullscreen-btn').addEventListener('click', () => {
+            const gameFrame = document.getElementById('game-frame');
+            if (gameFrame.requestFullscreen) {
+                gameFrame.requestFullscreen();
+            } else if (gameFrame.webkitRequestFullscreen) {
+                gameFrame.webkitRequestFullscreen();
+            } else if (gameFrame.msRequestFullscreen) {
+                gameFrame.msRequestFullscreen();
+            }
+        });
+    </script>
+</body>
+</html>
