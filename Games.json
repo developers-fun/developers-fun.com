@@ -17,7 +17,7 @@
         {
             "name": "2 minute football",
             "creator": "igamebank",
-            "path": "/G/2-minute-football.html",
+            "path": "/G/2minutefootball.html",
             "image": "/GameImgs/2-minute-football.png",
             "Visible": true,
             "Hot": true,
@@ -70,7 +70,7 @@
         {
             "name": "Blumgi Slimes",
             "creator": "Blumgi",
-            "path": "/G/blumgi-slime.html",
+            "path": "/G/blumgislime.html",
             "image": "/GameImgs/blumgi-slime.png",
             "Visible": true,
             "Hot": true,
@@ -182,7 +182,7 @@
         {
             "name": "Doodle Baseball",
             "creator": "Google",
-            "path": "/G/Doodle-Baseball.html",
+            "path": "/G/DoodleBaseball.html",
             "image": "/GameImgs/doodle-Baseball.png",
             "Visible": true,
             "Hot": true,
@@ -224,7 +224,7 @@
         {
             "name": "Drive mad",
             "creator": "Fancade",
-            "path": "/G/Drive-mad.html",
+            "path": "/G/Drivemad.html",
             "image": "/GameImgs/DriveMad.jpg",
             "Visible": true,
             "Hot": false,
@@ -252,7 +252,7 @@
         {
             "name": "Geometry Dash",
             "creator": "RobTop Games",
-            "path": "/G/Geometry-dash.html",
+            "path": "/G/Geometrydash.html",
             "image": "/GameImgs/Geometry-dash.png",
             "Visible": true,
             "Hot": true,
@@ -490,7 +490,7 @@
         {
             "name": "Slice Master",
             "creator": "Unknown",
-            "path": "/G/Slice-Master.html",
+            "path": "/G/SliceMaster.html",
             "image": "/GameImgs/slice-master.png",
             "Visible": false,
             "Hot": false,
@@ -628,7 +628,7 @@
         {
             "name": "Tiny-Fishing",
             "creator": "Mad Buffer",
-            "path": "/G/Tiny-Fishing.html",
+            "path": "/G/TinyFishing.html",
             "image": "/GameImgs/Tiny-Fishing.png",
             "Visible": false,
             "Hot": false,
@@ -642,7 +642,7 @@
         {
             "name": "Zeepkist Crash",
             "creator": "Steelpan Interactive",
-            "path": "/G/Zeepkist-Crash.html",
+            "path": "/G/ZeepkistCrash.html",
             "image": "/GameImgs/Zeepkist-Crash.png",
             "Visible": true,
             "Hot": true,
