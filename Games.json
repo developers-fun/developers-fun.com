@@ -46,7 +46,7 @@
             "creator": "RHM Interactive",
             "path": "/G/boxingrandom.html",
             "image": "/GameImgs/BoxingRandom.jfif",
-            "Visible": true,
+            "Visible": false,
             "Hot": false,
             "categories": [
                 "Sports",
