@@ -100,7 +100,7 @@ gamesData.games.forEach(game => {
             
             // Replace placeholders in template
             let gameHtml = template
-                .replace('Game - developers-fun', `${game.name} - developers-fun`)
+                .replace('Game - use-fun', `${game.name} - use-fun`)
                 .replace('id="game-frame"', `id="game-frame" src="${game.IframePath}"`)
                 .replace('id="game-thumbnail" alt="Game Thumbnail"', `id="game-thumbnail" src="${game.image}" alt="${game.name}"`)
                 .replace('<h1 class="game-title"></h1>', `<h1 class="game-title">${game.name}</h1>`)
