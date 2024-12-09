@@ -4,654 +4,353 @@
             "name": "1v1.lol",
             "creator": "JustPlay.LOL",
             "path": "/G/1v1.lol.html",
-            "image": "/GameImgs/1v1lol.jpg",
+            "image": "/Images/Images/1v1lol.jpg",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/1v1.lol"
+            "Hot": true
         },
         {
             "name": "2 minute football",
             "creator": "igamebank",
-            "path": "/G/2minutefootball.html",
-            "image": "/GameImgs/2-minute-football.png",
+            "path": "/G/2-minute-football.html",
+            "image": "/Images/Images/2-minute-football.png",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Sports",
-                "Arcade"
-            ],
-            "IframePath": "../Game/2-minute-football"
+            "Hot": true
         },
         {
             "name": "Among Us",
             "creator": "InnerSloth",
             "path": "/G/amongus.html",
-            "image": "/GameImgs/AmoungUs.png",
+            "image": "/Images/Images/AmoungUs.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Multiplayer",
-                "Strategy",
-                "Social"
-            ],
-            "IframePath": "../Game/amongus"
+            "Hot": false
         },
         {
             "name": "Boxing Random",
             "creator": "RHM Interactive",
             "path": "/G/boxingrandom.html",
-            "image": "/GameImgs/BoxingRandom.jfif",
-            "Visible": false,
-            "Hot": false,
-            "categories": [
-                "Sports",
-                "Arcade"
-            ],
-            "IframePath": "../Game/boxingrandom"
+            "image": "/Images/Images/BoxingRandom.jfif",
+            "Visible": true,
+            "Hot": false
         },
         {
             "name": "Basketball Bros",
             "creator": "Mad Puffers",
             "path": "/G/basketbros.html",
-            "image": "/GameImgs/basketballstars.jpg",
+            "image": "/Images/Images/basketballstars.jpg",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Sports",
-                "Arcade"
-            ],
-            "IframePath": "../Game/basketbros"
+            "Hot": false
         },
         {
             "name": "Blumgi Slimes",
             "creator": "Blumgi",
-            "path": "/G/blumgislime.html",
-            "image": "/GameImgs/blumgi-slime.png",
+            "path": "/G/blumgi-slime.html",
+            "image": "/Images/Images/blumgi-slime.png",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/blumgi-slime"
+            "Hot": true
         },
         {
             "name": "Clicker Heroes",
             "creator": "Playsaurus",
             "path": "/G/ClickerHeroes.html",
-            "image": "/GameImgs/clicker-heroes.png",
+            "image": "/Images/Images/clicker-heroes.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/ClickerHeroes"
+            "Hot": false
         },
         {
             "name": "Color switch",
             "creator": "Fortafy Games",
             "path": "/G/ColorSwitch.html",
-            "image": "/GameImgs/ColorSwitch.png",
+            "image": "/Images/Images/ColorSwitch.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/ColorSwitch"
+            "Hot": false
         },
         {
             "name": "Cookie Clickers",
             "creator": "RedBit Games",
             "path": "/G/CookieClicker.html",
-            "image": "/GameImgs/CookieClicker.png",
+            "image": "/Images/Images/CookieClicker.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/CookieClicker"
+            "Hot": false
         },
         {
             "name": "Coreball",
             "creator": "Game Distribution",
             "path": "/G/Coreball.html",
-            "image": "/GameImgs/Coreball.png",
+            "image": "/Images/Images/Coreball.png",
             "Visible": false,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Coreball"
+            "Hot": false
         },
         {
             "name": "Dadish",
             "creator": "Thomas K. Young",
             "path": "/G/Dadish.html",
-            "image": "/GameImgs/Dadish.png",
+            "image": "/Images/Images/Dadish.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Dadish"
+            "Hot": false
         },
         {
             "name": "Dadish 3",
             "creator": "Thomas K. Young",
             "path": "/G/Dadish3.html",
-            "image": "/GameImgs/Dadish3.png",
+            "image": "/Images/Images/Dadish3.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Dadish3"
+            "Hot": false
         },
         {
             "name": "Descent",
             "creator": "Sakkat Studio",
             "path": "/G/Descent.html",
-            "image": "/GameImgs/Descent.png",
+            "image": "/Images/Images/Descent.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Descent"
-        },
-        {
-            "name": "Doodle Baseball",
-            "creator": "Google",
-            "path": "/G/DoodleBaseball.html",
-            "image": "/GameImgs/doodle-Baseball.png",
-            "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Doodle-Baseball"
+            "Hot": false
         },
         {
             "name": "Doodle Jump",
             "creator": "Lima Sky",
             "path": "/G/doodlejump.html",
-            "image": "/GameImgs/Doodlejump.png",
+            "image": "/Images/Images/Doodlejump.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/doodlejump"
+            "Hot": false
         },
         {
             "name": "Drift boss",
             "creator": "MarketJS",
             "path": "/G/driftboss.html",
-            "image": "/GameImgs/drift-boss.png",
+            "image": "/Images/Images/drift-boss.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/driftboss"
+            "Hot": false
         },
         {
             "name": "Drive mad",
             "creator": "Fancade",
-            "path": "/G/Drivemad.html",
-            "image": "/GameImgs/DriveMad.jpg",
+            "path": "/G/Drive-mad.html",
+            "image": "/Images/Images/DriveMad.jpg",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Drive-mad"
+            "Hot": false
+        },
+        {
+            "name": "Eugene's Life",
+            "creator": "Gametornado",
+            "path": "Games/Eugene's-Life.html",
+            "image": "Images/Images/EugenesLife.png",
+            "Visible": true,
+            "Hot": true
         },
         {
             "name": "Fruit Ninja",
             "creator": "Halfbrick Studios",
             "path": "/G/FruitNinja.html",
-            "image": "/GameImgs/Fruit.jfif",
+            "image": "/Images/Images/Fruit.jfif",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/FruitNinja"
-        },
-        {
-            "name": "Geometry Dash",
-            "creator": "RobTop Games",
-            "path": "/G/Geometrydash.html",
-            "image": "/GameImgs/Geometry-dash.png",
-            "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Geometry-dash"
+            "Hot": false
         },
         {
             "name": "Getaway Shootout",
             "creator": "Neweich Games",
             "path": "/G/GetawayShootouts.html",
-            "image": "/GameImgs/GetawayShootout.png",
+            "image": "/Images/Images/GetawayShootout.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/GetawayShootouts"
+            "Hot": false
         },
         {
             "name": "Gobble",
             "creator": "Fancade",
             "path": "/G/Gobble.html",
-            "image": "/GameImgs/Gobble.png",
+            "image": "/Images/Images/Gobble.png",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Gobble"
+            "Hot": true
         },
         {
             "name": "Hextris",
             "creator": "Hextris",
             "path": "/G/hextris.html",
-            "image": "/GameImgs/hextris.png",
+            "image": "/Images/Images/hextris.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/hextris"
+            "Hot": false
         },
         {
             "name": "Hover Racer Drive",
             "creator": "Unknown",
             "path": "/G/hoverracerdrive.html",
-            "image": "/GameImgs/hover-racer-drive.png",
+            "image": "/Images/Images/hover-racer-drive.png",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/hoverracerdrive"
+            "Hot": true
         },
         {
             "name": "Jetpack Joyride",
             "creator": "Halfbrick Studios",
             "path": "/G/Jetpackjoyride.html",
-            "image": "/GameImgs/Jetpack.png",
+            "image": "/Images/Images/Jetpack.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Jetpackjoyride"
+            "Hot": false
         },
         {
             "name": "L2F",
             "creator": "MarketJS",
             "path": "/G/L2f.html",
-            "image": "/GameImgs/L2F.png",
+            "image": "/Images/Images/L2F.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/L2f"
+            "Hot": false
         },
         {
             "name": "L2f2",
             "creator": "MarketJS",
             "path": "/G/L2f2.html",
-            "image": "/GameImgs/L2F2.jpeg",
+            "image": "/Images/Images/L2F2.jpeg",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/L2f2"
+            "Hot": false
         },
         {
             "name": "L2F3",
             "creator": "MarketJS",
             "path": "/G/L2f3.html",
-            "image": "/GameImgs/L2F3.png",
+            "image": "/Images/Images/L2F3.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/L2f3"
+            "Hot": false
         },
         {
             "name": "Level Devil",
             "creator": "Unept",
             "path": "/G/LevelDevil.html",
-            "image": "/GameImgs/LevelDevil.png",
+            "image": "/Images/Images/LevelDevil.png",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/LevelDevil"
+            "Hot": true
         },
         {
             "name": "Minecraft",
             "creator": "Mojang Studios",
             "path": "/G/Minecraft.html",
-            "image": "/GameImgs/MinecraftLogo.png",
-            "Visible": false,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Minecraft"
-        },
-        {
-            "name": "Monkey Mart",
-            "creator": "TinyDobbins",
-            "path": "/G/MonkeyMart.html",
-            "image": "/GameImgs/MonkeyMart.png",
+            "image": "/Images/Images/MinecraftLogo.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/MonkeyMart"
+            "Hot": false
         },
         {
             "name": "MotoRoadRash3D",
             "creator": "Unknown",
             "path": "/G/MotoRoadRash3D.html",
-            "image": "/GameImgs/MotoRoadRash3D.jfif",
+            "image": "/Images/Images/MotoRoadRash3D.jfif",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/MotoRoadRash3D"
+            "Hot": true
         },
         {
             "name": "MotoX3M",
             "creator": "Mad Puffers",
             "path": "/G/MotoX3m.html",
-            "image": "/GameImgs/moto-x3m.jpg",
+            "image": "/Images/Images/moto-x3m.jpg",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/MotoX3m"
+            "Hot": false
         },
         {
             "name": "Murder",
             "creator": "Studio Seufz",
             "path": "/G/Murder.html",
-            "image": "/GameImgs/Murder.png",
+            "image": "/Images/Images/Murder.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Murder"
+            "Hot": false
         },
         {
             "name": "Ragdoll Hit",
             "creator": "Ericetto",
             "path": "/G/RagdollHit.html",
-            "image": "/GameImgs/RagdollHit.png",
+            "image": "/Images/Images/RagdollHit.png",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/RagdollHit"
+            "Hot": true
         },
         {
             "name": "RetroBowl",
             "creator": "New Star Games",
             "path": "/G/Retrobowl.html",
-            "image": "/GameImgs/Retrobowl.png",
-            "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Retrobowl"
+            "image": "/Images/Images/Retrobowl.png",
+            "Visible": true, 
+            "Hot": true 
         },
         {
             "name": "Slice Master",
             "creator": "Unknown",
-            "path": "/G/SliceMaster.html",
-            "image": "/GameImgs/slice-master.png",
+            "path": "/G/Slice-Master.html",
+            "image": "/Images/Images/slice-master.png",
             "Visible": false,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Slice-Master"
+            "Hot": false
         },
         {
             "name": "Slope",
             "creator": "Y8",
             "path": "/G/Slope.html",
-            "image": "/GameImgs/Slope.jfif",
+            "image": "/Images/Images/Slope.jfif",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Slope"
+            "Hot": true
         },
         {
             "name": "Slope 2",
             "creator": "Y8",
             "path": "/G/Slope2.html",
-            "image": "/GameImgs/Slope.jfif",
+            "image": "/Images/Images/Slope.jfif",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Slope2"
+            "Hot": false
         },
         {
             "name": "Soccer Random",
             "creator": "RHM Interactive",
             "path": "/G/SoccerRandom.html",
-            "image": "/GameImgs/SoccerRandom.jfif",
+            "image": "/Images/Images/SoccerRandom.jfif",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Sports",
-                "Arcade"
-            ],
-            "IframePath": "../Game/SoccerRandom"
+            "Hot": false
         },
         {
             "name": "Stack",
             "creator": "Ketchapp",
             "path": "/G/Stack.html",
-            "image": "/GameImgs/stack.png",
+            "image": "/Images/Images/stack.png",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Stack"
+            "Hot": false
         },
         {
             "name": "Stacktris",
             "creator": "Fancade",
             "path": "/G/stacktris.html",
-            "image": "/GameImgs/stacktris.png",
+            "image": "/Images/Images/stacktris.png",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/stacktris"
+            "Hot": true
         },
         {
             "name": "Subway Surfers",
             "creator": "Sybo Games",
             "path": "/G/SubwaySurfers.html",
-            "image": "/GameImgs/SubwaySurfers.png",
+            "image": "/Images/Images/SubwaySurfers.png",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/SubwaySurfers"
+            "Hot": true
         },
         {
             "name": "Table Tennis World Tour",
             "creator": "Yakuto",
             "path": "/G/TableTennisWorldTour.html",
-            "image": "/GameImgs/TableTennisWorldTour.jfif",
+            "image": "/Images/Images/TableTennisWorldTour.jfif",
             "Visible": true,
-            "Hot": false,
-            "categories": [
-                "Sports",
-                "Arcade"
-            ],
-            "IframePath": "../Game/TableTennisWorldTour"
+            "Hot": false
         },
         {
             "name": "Tag",
             "creator": "JetGames",
             "path": "/G/Tag.html",
-            "image": "/GameImgs/Tag.png",
+            "image": "/Images/Images/Tag.png",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Tag"
-        },
-        {
-            "name": "Tag 2",
-            "creator": "JetGames",
-            "path": "/G/Tag2.html",
-            "image": "/GameImgs/Tag2.png",
-            "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Tag2"
+            "Hot": true
         },
         {
             "name": "Tiny-Fishing",
             "creator": "Mad Buffer",
-            "path": "/G/TinyFishing.html",
-            "image": "/GameImgs/Tiny-Fishing.png",
-            "Visible": false,
-            "Hot": false,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Tiny-Fishing"
+            "path": "/G/Tiny-Fishing.html",
+            "image": "/Images/Images/Tiny-Fishing.png",
+            "Visible": true,
+            "Hot": true
         },
         {
             "name": "Zeepkist Crash",
             "creator": "Steelpan Interactive",
-            "path": "/G/ZeepkistCrash.html",
-            "image": "/GameImgs/Zeepkist-Crash.png",
+            "path": "/G/Zeepkist-Crash.html",
+            "image": "/Images/Images/Zeepkist-Crash.png",
             "Visible": true,
-            "Hot": true,
-            "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
-            ],
-            "IframePath": "../Game/Zeepkist-Crash"
+            "Hot": true
         }
     ]
-}
+  }
